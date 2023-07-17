@@ -1,0 +1,36 @@
+ .BottomMap{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 100%;
+    height: auto;
+    }
+
+    //Responsive Breakpoint
+
+@media(max-width:767px){
+   .BottomMap{
+      margin-top: 50px;
+      margin-bottom: 00px;
+      width: 100%;
+      height: auto;
+      img{
+         width: 360.69px;
+         height: 237px;
+         object-fit: cover;
+      }
+      }
+}
+
+@media(max-width:1180px) and (min-width:768px) {
+   .BottomMap{
+      margin-top: 50px;
+      margin-bottom: 00px;
+      width: 100%;
+      height: auto;
+      img{
+         width: 100%;
+         height:auto;
+         object-fit: cover;
+      }
+      }
+}

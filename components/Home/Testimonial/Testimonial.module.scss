@@ -1,0 +1,301 @@
+.TestimonialWrapper{
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    .TestimonialContainer{
+        width: 90%;
+        margin: auto;
+        h1{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 46px;
+            text-align: center;
+            color: #0F89C1;
+
+            .SliderBox{
+                margin-top: 30px; 
+              }
+            
+        }
+    }
+
+    .TestimonialItemBoxInfo .InfoBody{
+        padding:70px 50px;
+    }
+    .TestimonialItemBoxInfo .QuoteImg{
+        width: 65px !important;
+        height: 60.12px !important;
+    }
+    .TestimonialItemBoxInfo p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: justify;
+        color: #020202;
+    }
+    .SliderBottom{
+        background: #E4EFF4 !important;
+        position: absolute;
+        width: 100%;
+        height: 125.28px;
+        bottom: 0;
+        padding: 20px;
+        border-radius: 0px 0px 24px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        img{
+            width: 80.73px !important;
+            height: 80.9px !important;
+            border-radius: 100% !important;
+        }
+        .TextInfo h5{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18px;
+            color: #010101;
+        }
+        .TextInfo p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: -6px;
+            line-height: 24px;
+            text-align: justify;
+            color: #0F89C1;
+            margin-bottom: 0px;
+        }
+
+        
+    }
+    .ReadMoreButton{
+        margin-top: 60px;
+        text-align: center;
+        button{
+            border: 3px solid #FF5F15;
+            border-radius: 45px;
+            width: 203px;
+            height: 60px;
+            background-color: transparent;
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #FF5F15;
+        }
+    }
+}
+
+//Responsive Breakpoint
+@media(max-width:767px){
+    .TestimonialWrapper{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+        .TestimonialContainer{
+            width: 100%;
+            margin: auto;
+            h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: center;
+                color: #0F89C1;
+    
+                .SliderBox{
+                    margin-top: 30px; 
+                  }
+                
+            }
+        }
+    
+        .TestimonialItemBoxInfo .InfoBody{
+            padding:70px 50px;
+        }
+        .TestimonialItemBoxInfo .QuoteImg{
+            width: 32.84px !important;
+            height: 30.37px !important;
+        }
+        .TestimonialItemBoxInfo p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: justify;
+            color: #020202;
+        }
+        .SliderBottom{
+            background: #E4EFF4 !important;
+            position: absolute;
+            width: 100%;
+            height: 125.28px;
+            bottom: 0;
+            padding: 20px;
+            border-radius: 0px 0px 24px 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            img{
+                width: 80.73px !important;
+                height: 80.9px !important;
+                border-radius: 100% !important;
+            }
+            .TextInfo h5{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                color: #010101;
+            }
+            .TextInfo p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                margin-top: -6px;
+                line-height: 24px;
+                text-align: justify;
+                color: #0F89C1;
+                margin-bottom: 0px;
+            }
+    
+            
+        }
+        .ReadMoreButton{
+            margin-top: 60px;
+            text-align: center;
+            button{
+                border: 3px solid #FF5F15;
+                border-radius: 45px;
+                width: 160px;
+                height: 39px;
+                background-color: transparent;
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: #FF5F15;
+            }
+        }
+    }
+    
+}
+
+//IPAD
+@media(max-width:1180px) and (min-width:768px) {
+    .TestimonialWrapper{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+        .TestimonialContainer{
+            width: 100%;
+            margin: auto;
+            h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: center;
+                color: #0F89C1;
+    
+                .SliderBox{
+                    margin-top: 30px; 
+                  }
+                
+            }
+        }
+    
+        .TestimonialItemBoxInfo .InfoBody{
+            padding:70px 50px;
+        }
+        .TestimonialItemBoxInfo .QuoteImg{
+            width: 32.84px !important;
+            height: 30.37px !important;
+        }
+        .TestimonialItemBoxInfo p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: justify;
+            color: #020202;
+        }
+        .SliderBottom{
+            background: #E4EFF4 !important;
+            position: absolute;
+            width: 100%;
+            height: 125.28px;
+            bottom: 0;
+            padding: 20px;
+            border-radius: 0px 0px 24px 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            img{
+                width: 80.73px !important;
+                height: 80.9px !important;
+                border-radius: 100% !important;
+            }
+            .TextInfo h5{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                color: #010101;
+            }
+            .TextInfo p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                margin-top: -6px;
+                line-height: 24px;
+                text-align: justify;
+                color: #0F89C1;
+                margin-bottom: 0px;
+            }
+    
+            
+        }
+        .ReadMoreButton{
+            margin-top: 60px;
+            text-align: center;
+            button{
+                border: 3px solid #FF5F15;
+                border-radius: 45px;
+                width: 160px;
+                height: 39px;
+                background-color: transparent;
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: #FF5F15;
+            }
+        }
+    }
+    
+}

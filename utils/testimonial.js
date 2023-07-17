@@ -1,0 +1,12 @@
+
+const testimonialData=[
+    {id:1,name:"Manpreet Singh",testimonial:"Really good Noida Custom Software Development Company. Delivery time was also up to the mark. I'm glad that I opted for their software development service. A professional business website is just one step away if you take their IT services. I would like to contact them again for website design and development in future."},
+    {id:2,name:"ANKIT SHARMA",testimonial:"I had hired Jabit Soft  IT company for Customize ERP development and everything has been delivered perfect by them. I would like to recommend this ERP software development company to business owner,  searching for a reliable partner for their software development needs in Delhi NCR region."},
+    {id:3,name:"Harindra Kumar",testimonial:`When I was looking billing software for my company, I  came across with jabit soft Pvt ltd. Software company. I am satisfied with services specially after delivery of the software. Their team continuously contact for feedback which makes different from other IT company.`},
+    {id:4,name:"Shabbir Shah",testimonial:`Jabit soft is  one of the best software development company. I had hired this IT company to develop custom software synchronised with my ideas. Team members not only implemented by ideas but also provide best feasible solution. Go ahead champs!!`},
+    {id:5,name:"anmol gangawat",testimonial:`I have great work experience with jabit soft Pvt. Ltd. They are striving to be the best custom software development company globally. The company and their team focus on on-time delivery with utmost commitment`},
+    {id:6,name:"MANISH SHARMA",testimonial:`Great place to learn how to develop custom software from scratch. The best thing is that healthy working environment and experienced senior team member help you whenever you stuck. Here you also get exposure on government projects.`},
+    {id:7,name:"Jitendra Kumar",testimonial:`Good software company in Noida. They provide custom software solution for start-up at very  reasonable prices`},
+    {id:8,name:"Paras Chadha",testimonial:`One of the best software development company in Noida. It Provides learning opportunities and open environment to their employees to prove yourself.`}]
+
+    module.exports={testimonialData}

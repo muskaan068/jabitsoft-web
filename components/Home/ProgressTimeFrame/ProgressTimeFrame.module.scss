@@ -1,0 +1,302 @@
+.ProgresstimeFrameWrapper{
+    background: #C4ECFF;
+    width: 100%;
+    // margin: auto;
+    height: auto;
+    margin-bottom: 20px;
+    border-top-right-radius:144px;
+    border-bottom-right-radius:144px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .ProgressInfoContainer{
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 60px;
+        h1{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 46px;
+            text-align: justify;
+            color: #0F89C1;
+            margin-bottom: 20px;
+        }
+
+        .ItemBoxWrapper{
+            display: flex;
+            // gap: 50px;
+            justify-content: space-between;
+            .ItemBox{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 800px;
+                    height: 600px;
+                    object-fit: cover;
+                    border-radius: 24px;
+                }
+            }
+            .ItemBoxSlider{
+                width: auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                // gap: 10px;
+                .ImgContainer {
+                    img{
+                        width: 280px;
+                        height: 280px;
+                        cursor: pointer;
+                        border-radius: 24px;
+                        &:hover{
+                            opacity: 0.8;
+                            transform: scale(1.03);
+                            transition: ease-in-out 0.8s;
+                           
+                        }
+                    }
+                }
+                
+                
+
+            }
+        }
+
+        .InfoBoxContainer{
+           
+                margin-top: 20px;
+                h4{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0F89C1;
+                }
+                h5{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #70CEFA;
+
+                }
+                p{
+                    width: 583px;
+                    height: 96px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: justify;
+                    color: #868788;
+                }
+            
+        }
+           
+        }
+    
+}
+
+// Responsive Breakpoint
+@media(max-width:767px) {
+    .ProgresstimeFrameWrapper{
+        background: #C4ECFF;
+        width: 100%;
+        // margin: auto;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 0px 67.75px 67.75px 0px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        .ProgressInfoContainer{
+            width: 100%;
+            margin: auto;
+            padding-top: 80px;
+            padding-bottom: 100px;
+            padding-left: 00px;
+            h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: justify;
+                color: #0F89C1;
+                margin-bottom: 20px;
+            }
+            
+            .ItemBoxWrapper{
+                display: flex;
+                // gap: 50px;
+                justify-content: space-between;
+                .ItemBox{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 160px;
+                        height: 190px;
+                        object-fit: cover;
+                    }
+                }
+                .ItemBoxSlider{
+                    width: auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .ImgContainer {
+                        width: 70px;
+                        height: 80px;
+                        padding: 0px;
+                        img{
+                            width: 70px;
+                            height: 80px;
+                            object-fit: cover !important;
+                            border-radius: 8px;
+                            // cursor: pointer;
+                            &:hover{
+                                opacity: 0.8;
+                                transform: scale(1.03);
+                                transition: ease-in-out 0.8s;
+                               
+                            }
+    
+                        }
+                    }
+                    
+                    
+    
+                }
+            }
+    
+            .InfoBoxContainer{
+               
+                    margin-top: 20px;
+                    h4{
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                    h5{
+                       
+                        font-size: 10px;
+                        line-height: 11px;
+                       
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 18px;
+                        width: 90%;
+                        height: 108px;
+                    }
+                
+            }
+                  
+    
+            }
+        
+    }
+}
+
+@media(max-width:1180px) and (min-width:768px) {
+    .ProgresstimeFrameWrapper{
+        background: #C4ECFF;
+        width: 100%;
+        // margin: auto;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 0px 67.75px 67.75px 0px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        .ProgressInfoContainer{
+            width: 100%;
+            margin: auto;
+            padding-top: 80px;
+            padding-bottom: 100px;
+            padding-left: 00px;
+            h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: justify;
+                color: #0F89C1;
+                margin-bottom: 20px;
+            }
+            
+            .ItemBoxWrapper{
+                display: flex;
+                gap: 50px;
+                justify-content: space-between;
+                .ItemBox{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 377px;
+                        height: 310px;
+                        object-fit: cover;
+                       
+                    }
+                }
+                .ItemBoxSlider{
+                    width: 100%;
+                    height: 300px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                   flex-wrap: wrap;
+                    .ImgContainer {
+                        width: 120px;
+                         height: 140px;
+                        img{
+                            width: 130px;
+                            height: 140px;
+                            object-fit: cover !important;
+                            border-radius: 8px;
+                            // cursor: pointer;
+                            &:hover{
+                                opacity: 0.8;
+                                transform: scale(1.03);
+                                transition: ease-in-out 0.8s;
+                               
+                            }
+    
+                        }
+                    }
+                    
+                    
+    
+                }
+            }
+    
+            .InfoBoxContainer{
+               
+                    margin-top: 20px;
+                    h4{
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                    h5{
+                       
+                        font-size: 10px;
+                        line-height: 11px;
+                       
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 18px;
+                        width: 90%;
+                        height: 108px;
+                    }
+                
+            }
+                  
+    
+            }
+        
+    }
+}

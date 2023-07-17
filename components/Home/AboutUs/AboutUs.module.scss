@@ -1,0 +1,112 @@
+.AboutUsWrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+   
+    .AboutContainer{
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        // gap: 50px;
+        justify-content: space-between;
+        align-items: center;
+        .AboutTextInfo h1{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 46px;
+            text-align: justify;
+            color: #0F89C1;
+
+        }
+        .AboutTextInfo p{
+            width: 728px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 36px;
+            color: #868788
+        }
+        button{
+            border: 3px solid #FF5F15;
+            border-radius: 45px;
+            width: 210px;
+            height: 76px;
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #FF5F15;
+        }
+        button:hover{
+         opacity: 0.8;
+        }
+    }
+}
+
+// Responsive Breakpoint
+@media(max-width:992px) and (min-width:310px) {
+    .AboutUsWrapper{
+        width: 100%;
+        margin: auto;
+        padding-top: 200px;
+        padding-bottom: 100px;
+       
+        .AboutContainer{
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+
+            .AboutTextInfo h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: justify;
+                color: #0F89C1;
+    
+            }
+            .AboutTextInfo p{
+                width: auto;
+                height: auto;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                color: #868788;
+                margin-bottom: 20px;
+                
+            }
+
+            button{
+                margin-top: 30px;
+                border: 1.55127px solid #FF5F15;
+                border-radius: 23.269px;
+                background: transparent;
+                width: 160px;
+                height: 39px;
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: #FF5F15;
+            }
+            button:hover{
+             opacity: 0.8;
+            }
+        }
+    }
+    
+}

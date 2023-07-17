@@ -1,0 +1,166 @@
+.SectionFiveWrapper {
+  width: 100%;
+  height: 900px;
+  background: #c3ecff;
+  border-radius: 144px 0px 0px 144px;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  .ContainerBoxRightRds {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    .NativeImgBox {
+      position: absolute;
+      top: -180px;
+      left: 50px;
+      width: 358px;
+      height: 386.83px;
+      background: #fffafa;
+      box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 169.75px;
+        height: 193.84px;
+      }
+    }
+    .InfoContainer {
+      padding-top: 400px;
+      h3 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #0f89c1;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #868788;
+        width: 894px;
+        height: 90px;
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+
+@media (max-width: 767px) {
+  .SectionFiveWrapper {
+    width: 100%;
+    height: 900px;
+    background: #c3ecff;
+    border-radius: 144px 0px 0px 144px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    .ContainerBoxRightRds {
+      width: 90%;
+      margin: auto;
+      position: relative;
+      .NativeImgBox {
+        position: absolute;
+        top: -180px;
+        left: 50px;
+        width: 358px;
+        height: 386.83px;
+        background: #fffafa;
+        box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 169.75px;
+          height: 193.84px;
+        }
+      }
+      .InfoContainer {
+        padding-top: 400px;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 46px;
+          color: #0f89c1;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #868788;
+          width: 894px;
+          height: 90px;
+        }
+      }
+    }
+  }
+}
+
+//IPAD
+//IPAD
+@media (max-width: 1180px) and (min-width: 768px) {
+  .SectionFiveWrapper {
+    width: 100%;
+    height: 900px;
+    background: #c3ecff;
+    border-radius: 144px 0px 0px 144px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    .ContainerBoxRightRds {
+      width: 90%;
+      margin: auto;
+      position: relative;
+      .NativeImgBox {
+        position: absolute;
+        top: -180px;
+        left: 50px;
+        width: 358px;
+        height: 386.83px;
+        background: #fffafa;
+        box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 169.75px;
+          height: 193.84px;
+        }
+      }
+      .InfoContainer {
+        padding-top: 400px;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 46px;
+          color: #0f89c1;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #868788;
+          width: 894px;
+          height: 90px;
+        }
+      }
+    }
+  }
+}

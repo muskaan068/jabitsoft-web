@@ -1,0 +1,132 @@
+.OurToolsWrapper{
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 100px;
+
+    .ContainerBox{
+            margin-bottom: 50px;
+            padding-bottom: 25px;
+            width: 90%;
+            margin: auto;
+            h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 46px;
+                text-align: justify;
+                color: #0F89C1;
+        
+            }
+            p{
+                width: 80%;
+                height: auto;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 36px;
+        
+                color: #868788;
+            }
+            .OurToolsLogoContainer{
+                margin-top: 100px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+}
+
+// Responsive Breakpoint
+@media(max-width:767px){
+    .OurToolsWrapper{
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    
+        .ContainerBox{
+                margin-bottom: 60px;
+                padding-bottom: 25px;
+                width: 95%;
+                margin: auto;
+                h1{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 23px;
+                    text-align: justify;
+                    color: #0F89C1;
+            
+                }
+                p{
+                    width: auto;
+                    height: auto;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+            
+                    color: #868788;
+                }
+                .OurToolsLogoContainer{
+                    margin-top: 70px;
+                    display: flex;
+                    justify-content: space-between;
+                    img{
+                        width: 20.57px;
+                        height: 30.69px;
+                    }
+                }
+            }
+    }
+}
+
+// IPAD
+@media(max-width:1180px) and (min-width:768px) {
+    .OurToolsWrapper{
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    
+        .ContainerBox{
+                margin-bottom: 60px;
+                padding-bottom: 25px;
+                width: 95%;
+                margin: auto;
+                h1{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 23px;
+                    text-align: justify;
+                    color: #0F89C1;
+            
+                }
+                p{
+                    width: auto;
+                    height: auto;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+            
+                    color: #868788;
+                }
+                .OurToolsLogoContainer{
+                    margin-top: 70px;
+                    display: flex;
+                    gap: 30px;
+                    flex-wrap: wrap;
+                     justify-content: space-between;
+                    img{
+                        width: 60.57px;
+                        height: 60.69px;
+                    }
+                }
+            }
+    }
+}

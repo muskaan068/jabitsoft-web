@@ -1,0 +1,207 @@
+.SectionOneWrapper {
+  width: 100%;
+  height: auto;
+  background: #c3ecff;
+  margin-top: 300px;
+  margin-bottom: 50px;
+  border-radius: 0px 144px 144px 0px;
+  padding-bottom: 100px;
+
+  .ContainerBoxLeftRds {
+    height: 922px;
+    // display: flex;
+    // justify-items: center;
+    padding-top: 10%;
+    .ContentBox {
+      width: 90%;
+      margin: auto;
+      h3 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #0f89c1;
+        width: 100%;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #868788;
+        width: 85%;
+        height: 200px;
+      }
+    }
+    .InfoItemContent {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .ItemText {
+        h4 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          color: #0f89c1;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #868788;
+          height: 72px;
+          width: 836px;
+        }
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+
+@media (max-width: 767px) {
+  .SectionOneWrapper {
+    width: 100%;
+    height: auto;
+    background: #c3ecff;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    border-radius: 0px 144px 144px 0px;
+    padding-bottom: 100px;
+
+    .ContainerBoxLeftRds {
+      height: 922px;
+      // display: flex;
+      // justify-items: center;
+      padding-top: 10%;
+      .ContentBox {
+        width: 90%;
+        margin: auto;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 46px;
+          color: #0f89c1;
+          width: 100%;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #868788;
+          width: 85%;
+          height: 200px;
+        }
+      }
+      .InfoItemContent {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .ItemText {
+          h4 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: #0f89c1;
+          }
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #868788;
+            height: 72px;
+            width: 836px;
+          }
+        }
+      }
+    }
+  }
+}
+//IPAD
+
+@media (max-width: 1180px) and (min-width: 768px) {
+  .SectionOneWrapper {
+    width: 100%;
+    height: auto;
+    background: #c3ecff;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    border-radius: 0px 144px 144px 0px;
+    padding-bottom: 100px;
+
+    .ContainerBoxLeftRds {
+      height: 922px;
+      // display: flex;
+      // justify-items: center;
+      padding-top: 10%;
+      .ContentBox {
+        width: 90%;
+        margin: auto;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 46px;
+          color: #0f89c1;
+          width: 100%;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #868788;
+          width: 85%;
+          height: 200px;
+        }
+      }
+      .InfoItemContent {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .ItemText {
+          h4 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: #0f89c1;
+          }
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #868788;
+            height: 72px;
+            width: 836px;
+          }
+        }
+      }
+    }
+  }
+}

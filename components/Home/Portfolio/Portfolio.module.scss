@@ -1,0 +1,295 @@
+.PortfolioWrapper {
+  background: #c4ecff;
+  height: 922px;
+  width: 100%;
+  border-top-right-radius: 144px;
+  border-bottom-right-radius: 144px;
+  margin-bottom: 600px;
+  padding-top: 150px;
+  .PortfolioContainer {
+    width: 90%;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 30px;
+    .InfoText h1 {
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 46px;
+      text-align: justify;
+      color: #0f89c1;
+    }
+    .InfoText p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 36px;
+      color: #868788;
+      max-width: 894px;
+      width: 100%;
+      height: 140px;
+    }
+    .InfoImgContainer {
+      position: relative;
+      margin-top: -50px;
+      img {
+        height: 100%;
+                    width: 100%;
+                    max-width: 300px;
+                    max-height: 300px;
+        object-fit: contain;
+      }
+      // .InfoImg1{
+      //     width: 257.73px;
+      //     height: 257.73px;
+      // }
+      // .InfoImg2{
+      //     width: 183.73px;
+      //     height: 183.73px;
+      //     position: absolute;
+      //     right: -110px;
+      //     top: -43px;
+      //     // bottom: -51px;
+      // }
+      // .InfoImg3{
+      //     width: 183.73px;
+      //     height: 183.73px;
+      //     position: absolute;
+      //     right: -90px;
+      //     bottom: -51px;
+      // }
+    }
+  }
+  .ContainerInfoBoxes {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+
+    .ContainerItemBox {
+      width: 312px;
+      height: 180.86px;
+      background: #f3f3f3;
+      box-shadow: 38.9099px 29.5427px 31.7044px 4.32333px rgba(0, 0, 0, 0.1);
+      border-radius: 90.4296px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding: 10px;
+      cursor: pointer;
+      img {
+        width: 120px;
+        height: 120px;
+      }
+      div h5 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #ff5f15;
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+@media (max-width: 767px){
+  .PortfolioWrapper {
+    background: #c4ecff;
+    height: 750px;
+    width: 100%;
+    border-radius: 0px 30.088px 30.088px 0px;
+    margin-bottom: 350px;
+    padding-top: 10px;
+    .PortfolioContainer {
+      width: 95%;
+      margin: auto;
+      padding-top: 100px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 10px;
+      .InfoText h1 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: justify;
+        color: #0f89c1;
+      }
+      .InfoText p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #868788;
+        width: auto;
+        height: auto;
+      }
+      .InfoImgContainer {
+        position: relative;
+        margin-top: -50px;
+        text-align: right;
+        img {
+          width: 200px;
+          height: 200px;
+          object-fit: contain;
+        }
+        // .InfoImg1{
+        //     width: 112.73px;
+        //     height: 112.73px;
+        //     position: absolute;
+        //     right: 20px;
+        //     top: -123px;
+        // }
+        // .InfoImg2{
+        //     width: 80.73px;
+        //     height: 80.73px;
+        //     position: absolute;
+        //     right: -30px;
+        //     top: -143px;
+        //     // bottom: -51px;
+        // }
+        // .InfoImg3{
+        //     width: 80.73px;
+        //     height: 80.73px;
+        //     position: absolute;
+        //     right: -30px;
+        //     bottom: -10px;
+        // }
+      }
+    }
+    .ContainerInfoBoxes {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px 20px;
+      padding-top: 50px;
+      padding-bottom: 20px;
+
+      .ContainerItemBox {
+        width: 155.06px;
+        height: 84.09px;
+        background: #f3f3f3;
+        box-shadow: 18.09px 13.735px 14.74px 2.01px rgba(0, 0, 0, 0.1);
+        border-radius: 42.0426px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        img {
+          width: 55.79px;
+          height: 55.79px;
+        }
+        div h5 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 10px;
+          line-height: 10px;
+          color: #ff5f15;
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+}
+
+// IPAD
+@media (max-width: 1180px) and (min-width: 768px) {
+  .PortfolioWrapper {
+    background: #c4ecff;
+    height: 600px;
+    width: 100%;
+    border-radius: 0px 30.088px 30.088px 0px;
+    margin-bottom: 300px;
+    padding-top: 10px;
+    .PortfolioContainer {
+      width: 95%;
+      margin: auto;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 10px;
+      .InfoText h1 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: justify;
+        color: #0f89c1;
+      }
+      .InfoText p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #868788;
+        width: auto;
+        height: auto;
+      }
+      .InfoImgContainer {
+        position: relative;
+        margin-top: -50px;
+        text-align: right;
+        img {
+          width: 200px;
+          height: 200px;
+          object-fit: contain;
+        }
+       
+      }
+    }
+    .ContainerInfoBoxes {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px 20px;
+      padding-top: 100px;
+      padding-bottom: 20px;
+
+      .ContainerItemBox {
+        width: 180.06px;
+        height: 100.09px;
+        background: #f3f3f3;
+        box-shadow: 18.09px 13.735px 14.74px 2.01px rgba(0, 0, 0, 0.1);
+        border-radius: 42.0426px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        img {
+          width: 55.79px;
+          height: 55.79px;
+        }
+        div h5 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 10px;
+          line-height: 10px;
+          color: #ff5f15;
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+}

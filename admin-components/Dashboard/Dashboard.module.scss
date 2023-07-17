@@ -1,0 +1,330 @@
+.ConatinerBox {
+  width: 100%;
+  height: auto;
+  .StatsBarContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    .StatsBoxContainer {
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+      .ItemBox {
+        width: 454px;
+        height: 241px;
+        background: linear-gradient(
+          112.24deg,
+          #0f89c1 17.6%,
+          #1d94cb 45.19%,
+          #5fcbfd 94.38%
+        );
+        border-radius: 20.4849px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 110px;
+          color: #ffffff;
+        }
+        .StatusText {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          h4 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 37px;
+            color: #ffffff;
+            margin-bottom: 0;
+          }
+          span {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  .ContentBoxContainer {
+    margin-top: 40px;
+    h1 {
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 32px;
+      color: #868788;
+    }
+    .BlogBarContainer {
+      width: 100%;
+      background: #c3ecff;
+      border-radius: 25px;
+      height: 383px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 150px;
+      .Items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+      }
+    }
+    .PortfolioBarConatiner {
+      width: 100%;
+      background: #c3ecff;
+      border-radius: 25px;
+      height: 383px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 150px;
+      .Items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+
+@media (max-width: 767px) {
+  .ConatinerBox {
+    width: 100%;
+    height: auto;
+    .StatsBarContainer {
+      width: 100%;
+      height: auto;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      .StatsBoxContainer {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        .ItemBox {
+          width: 454px;
+          height: 241px;
+          background: linear-gradient(
+            112.24deg,
+            #0f89c1 17.6%,
+            #1d94cb 45.19%,
+            #5fcbfd 94.38%
+          );
+          border-radius: 20.4849px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          h3 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 80px;
+            line-height: 110px;
+            color: #ffffff;
+          }
+          .StatusText {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            h4 {
+              font-family: "Helvetica";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 32px;
+              line-height: 37px;
+              color: #ffffff;
+              margin-bottom: 0;
+            }
+            span {
+              font-family: "Helvetica";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 21px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+    .ContentBoxContainer {
+      margin-top: 40px;
+      h1 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 32px;
+        color: #868788;
+      }
+      .BlogBarContainer {
+        width: 100%;
+        background: #c3ecff;
+        border-radius: 25px;
+        height: 383px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        .Items {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 10px;
+          cursor: pointer;
+        }
+      }
+      .PortfolioBarConatiner {
+        width: 100%;
+        background: #c3ecff;
+        border-radius: 25px;
+        height: 383px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        .Items {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// IPAD
+@media (max-width: 1180px) and (min-width: 768px) {
+  .ConatinerBox {
+    width: 100%;
+    height: auto;
+    .StatsBarContainer {
+      width: 100%;
+      height: auto;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      .StatsBoxContainer {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        .ItemBox {
+          width: 454px;
+          height: 241px;
+          background: linear-gradient(
+            112.24deg,
+            #0f89c1 17.6%,
+            #1d94cb 45.19%,
+            #5fcbfd 94.38%
+          );
+          border-radius: 20.4849px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          h3 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 80px;
+            line-height: 110px;
+            color: #ffffff;
+          }
+          .StatusText {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            h4 {
+              font-family: "Helvetica";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 32px;
+              line-height: 37px;
+              color: #ffffff;
+              margin-bottom: 0;
+            }
+            span {
+              font-family: "Helvetica";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 21px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+    .ContentBoxContainer {
+      margin-top: 40px;
+      h1 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 32px;
+        color: #868788;
+      }
+      .BlogBarContainer {
+        width: 100%;
+        background: #c3ecff;
+        border-radius: 25px;
+        height: 383px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        .Items {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 10px;
+          cursor: pointer;
+        }
+      }
+      .PortfolioBarConatiner {
+        width: 100%;
+        background: #c3ecff;
+        border-radius: 25px;
+        height: 383px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        .Items {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

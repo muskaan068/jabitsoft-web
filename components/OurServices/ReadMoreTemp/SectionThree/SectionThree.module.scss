@@ -1,0 +1,62 @@
+.SectionThreeWrapper{
+    width: 100%;
+    height: 922px;
+    background: #C3ECFF;
+    border-radius: 144px 0px 0px 144px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    .ContainerBoxRightRds{
+        width: 90%;
+        margin: auto;
+        position: relative;
+        .NativeImgBox{
+            position: absolute;
+            top: -180px;
+            left: 50px;
+            width: 358px;
+            height: 386.83px;
+            background: #FFFAFA;
+            box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+            display: flex;
+            padding: 0px 30px;
+          
+
+            img{
+               margin-top: 70px;
+            }
+            .AppleImg{
+                 width: 130px;
+                height: 160px;
+            }
+            .AndroidImg{
+                width: 200px;
+                height: 200px;
+                margin-top: 150px;
+            }
+        }
+        .InfoContainer{
+            padding-top: 400px;
+            h3{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 46px;
+                color: #0F89C1;
+    
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #868788;
+                width: 894px;
+                height: 90px;
+    
+            }
+        }
+    }
+}

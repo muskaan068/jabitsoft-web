@@ -1,0 +1,114 @@
+.SectionThreeWrapper {
+  width: 100%;
+  height: 922px;
+  background: #c3ecff;
+  border-radius: 144px 0px 0px 144px;
+  margin-top: 80px;
+  margin-bottom: 200px;
+  .ContainerBoxRightRds {
+    width: 90%;
+    margin: auto;
+    position: relative;
+
+    .InfoContainer {
+      padding-top: 350px;
+      h3 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #0f89c1;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #868788;
+        width: 894px;
+        height: 90px;
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+
+@media (max-width: 767px) {
+  .SectionThreeWrapper {
+    width: 100%;
+    height: 922px;
+    background: #c3ecff;
+    border-radius: 45px 0px 0px 45px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    .ContainerBoxRightRds {
+      width: 90%;
+      margin: auto;
+      position: relative;
+
+      .InfoContainer {
+        padding-top: 200px;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 46px;
+          color: #0f89c1;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #868788;
+          width: 894px;
+          height: 90px;
+        }
+      }
+    }
+  }
+}
+
+// IPAD
+@media (max-width: 1180px) and (min-width: 768px) {
+  .SectionThreeWrapper {
+    width: 100%;
+    height: 922px;
+    background: #c3ecff;
+    border-radius: 45px 0px 0px 45px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    .ContainerBoxRightRds {
+      width: 90%;
+      margin: auto;
+      position: relative;
+
+      .InfoContainer {
+        padding-top: 200px;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 46px;
+          color: #0f89c1;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #868788;
+          width: 894px;
+          height: 90px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,193 @@
+.TrustedPartnerBox{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 200px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+   
+    h1{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: justify;
+        color: #0F89C1;
+
+    }
+    p{
+        width: 979px;
+        height: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 36px;
+
+        color: #868788;
+    }
+}
+.CompaniesParternsBox{
+    // padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    max-width: 90%;
+    width: 100%;
+    display: flex;
+    gap: 140px;
+    margin: auto;
+    .PartnerItemBox{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+
+        img{
+            width: 54px;
+            height: 54px;
+        }
+        h4{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: 0.115em;
+            color: #919598;
+            margin-top: 6px;
+        }
+    }
+}
+
+//Responsive Breakpoint
+@media(max-width:767px){
+    .TrustedPartnerBox{
+        width: 95%;
+        height: auto;
+        margin: auto;
+        padding-top: 100px;
+        // margin-top: 60px;
+        // margin-bottom: 10px;
+        padding-bottom: 60px;
+       
+        h1{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: justify;
+            color: #0F89C1;
+    
+        }
+        p{
+            width: auto;
+            height: auto;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            
+            color: #868788;
+        }
+    }
+    .CompaniesParternsBox{
+        // padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 150px;
+        width: 90%;
+        display: flex;
+        gap: 30px 70px;
+        // justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+        .PartnerItemBox{
+            display: flex;
+            gap: 2px;
+    
+            img{
+                width: 34px;
+                height: 34px;
+            }
+            h4{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 12.0618px;
+                line-height: 14px;
+                letter-spacing: 0.115em;
+                color: #919598;
+                margin-top: 6px;
+            }
+        }
+    }
+}
+
+// IPAD
+@media(max-width:1180px) and (min-width:768px){
+    .TrustedPartnerBox{
+        width: 95%;
+        height: auto;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 60px;
+       
+        h1{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: justify;
+            color: #0F89C1;
+    
+        }
+        p{
+            width: auto;
+            height: auto;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            
+            color: #868788;
+        }
+    }
+    .CompaniesParternsBox{
+        // padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 150px;
+        width: 90%;
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin: auto;
+        .PartnerItemBox{
+            display: flex;
+            gap: 2px;
+            img{
+                width: 34px;
+                height: 34px;
+            }
+            h4{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 12.0618px;
+                line-height: 14px;
+                letter-spacing: 0.115em;
+                color: #919598;
+                margin-top: 6px;
+            }
+        }
+    }
+}

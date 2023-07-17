@@ -1,0 +1,349 @@
+.SectionFiveWrapper{
+    width: 100%;
+    height: 922px;
+    background: #C3ECFF;
+    margin-top: 300px;
+    margin-bottom: 350px;
+    border-radius: 0px 144px 144px 0px;
+
+    .ContainerBoxLeftRds{
+        .CircleBoxContainer{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            .TopCircle{
+                background: transparent;
+                // box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                width: 340px;
+                height: 340px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: -150px;
+                
+            }
+        }
+       
+        .ContentBox{
+            width: 100%;
+            margin: auto;
+            h3{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 46px;
+                color: #0F89C1;
+                width: 90%;
+                margin: auto;
+
+            }
+            p{
+
+                width: 1020px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #868788;
+                width: 90%;
+                margin: auto;
+                height: 300px;
+            }
+            
+            .ContainerInfoBoxes{
+                display: flex;
+                // gap: 60px;
+                justify-content: space-between;
+                margin-top: 150px;
+                .ContainerItemBox{
+                    width: 200px;
+                    height: 220px;
+                    background: #FFFFFF;
+                    box-shadow: 55.3247px 42.0058px 45.0794px 6.14719px rgba(0, 0, 0, 0.1);
+                    border-radius: 17.9032px;
+                    padding: 50px 20px;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                   
+                    h5{
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 80px;
+                        line-height: 92px;
+                        color: #70CEFA;
+                        
+    
+                    }
+                    h6{
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 23px;
+                        text-align: center;
+                        color: #70CEFA;
+                        // margin-top: 10px
+
+                    }
+                    
+                }
+                .ContainerItemBox:hover{
+                    cursor: pointer;
+                    transform: scale(1.15);
+                    transition: ease-in-out 0.5s;
+                }
+            }
+        }
+        
+    }
+}
+
+//Responsive Breakpoint
+
+@media(max-width:767px) {
+    .SectionFiveWrapper{
+        width: 100%;
+        height: 922px;
+        background: #C3ECFF;
+        margin-top: 300px;
+        margin-bottom: 350px;
+        border-radius: 0px 45px 45px 0px;
+    
+        .ContainerBoxLeftRds{
+            .CircleBoxContainer{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                height: 150px;
+                .TopCircle{
+                    background: transparent;
+                    // box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                    width: 240px;
+                    height: 240px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -150px;
+                    img{
+                        width: 260px;
+                        height: 260px;
+                    }
+                    
+                }
+            }
+           
+            .ContentBox{
+                width: 100%;
+                margin: auto;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #0F89C1;
+                    width: 100%;
+                    margin: auto;
+    
+                }
+                p{
+    
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #868788;
+                    width: 100%;
+                    margin: auto;
+                    height: auto;
+                }
+                
+                .ContainerInfoBoxes{
+                    width: 80%;
+                    margin: auto;
+                    display: flex;
+                    // gap: 60px;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    gap: 30px;
+                    margin-top: 50px;
+                    .ContainerItemBox{
+                        width: 112.44px;
+                        height: 122.96px;
+                        background: #FFFFFF;
+                        box-shadow: 28.0218px 21.2758px 22.8326px 3.11353px rgba(0, 0, 0, 0.1);
+                        border-radius: 9.06794px;
+                        padding: 50px 20px;
+                        text-align: left;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                       
+                        h5{
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 40.5198px;
+                            line-height: 47px;
+                            color: #70CEFA;
+                            
+        
+                        }
+                        h6{
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 10.1299px;
+                            line-height: 12px;                   
+                            text-align: center;
+                            color: #70CEFA;
+                            // margin-top: 10px
+    
+                        }
+                        
+                    }
+                    .ContainerItemBox:hover{
+                        cursor: pointer;
+                        transform: scale(1.15);
+                        transition: ease-in-out 0.5s;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
+
+// IPAD
+@media(max-width:1180px) and (min-width:768px) {
+    .SectionFiveWrapper{
+        width: 100%;
+        height: 702px;
+        background: #C3ECFF;
+        margin-top: 300px;
+        margin-bottom: 350px;
+        border-radius: 0px 45px 45px 0px;
+    
+        .ContainerBoxLeftRds{
+            .CircleBoxContainer{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                height: 150px;
+                .TopCircle{
+                    background: transparent;
+                    // box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                    width: 240px;
+                    height: 240px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -150px;
+                    img{
+                        width: 260px;
+                        height: 260px;
+                    }
+                    
+                }
+            }
+           
+            .ContentBox{
+                width: 100%;
+                margin: auto;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #0F89C1;
+                    width: 100%;
+                    margin: auto;
+    
+                }
+                p{
+    
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #868788;
+                    width: 100%;
+                    margin: auto;
+                    height: auto;
+                }
+                
+                .ContainerInfoBoxes{
+                    width: 80%;
+                    margin: auto;
+                    display: flex;
+                    // gap: 60px;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    gap: 30px;
+                    margin-top: 50px;
+                    .ContainerItemBox{
+                        width: 160px;
+                        height: 160px;
+                        background: #FFFFFF;
+                        box-shadow: 28.0218px 21.2758px 22.8326px 3.11353px rgba(0, 0, 0, 0.1);
+                        border-radius: 9.06794px;
+                        padding: 50px 20px;
+                        text-align: left;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                       
+                        h5{
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 42.5198px;
+                            line-height: 47px;
+                            color: #70CEFA;
+                            
+        
+                        }
+                        h6{
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 12.1299px;
+                            line-height: 12px;                   
+                            text-align: center;
+                            color: #70CEFA;
+                            // margin-top: 10px
+    
+                        }
+                        
+                    }
+                    .ContainerItemBox:hover{
+                        cursor: pointer;
+                        transform: scale(1.15);
+                        transition: ease-in-out 0.5s;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}

@@ -1,0 +1,200 @@
+.PostListWrapper {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  .UploadedBlogs {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    h2 {
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 32px;
+      color: #868788;
+    }
+    .UploadedBlogBox {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+      .PostList {
+        background: #c3ecff;
+        border-radius: 14px;
+        width: 80%;
+        padding: 20px 30px;
+        height: 220px;
+        .PostDate {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          text-align: justify;
+          color: #868788;
+          display: flex;
+          justify-content: right;
+        }
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          color: #868788;
+        }
+        .PageContent {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 26px;
+          color: #868788;
+        }
+      }
+      .PostAction {
+        width: 20%;
+        height: 220px;
+        background: #c3ecff;
+        border-radius: 14px;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        img {
+          width: 64.67px;
+          height: 64.67px;
+          object-fit: contain;
+        }
+        h4 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 21.7778px;
+          line-height: 25px;
+          color: #868788;
+        }
+      }
+    }
+    .DraftUploadedBlogBox {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+      .PostList {
+        width: 80%;
+        padding: 20px 30px;
+        height: 220px;
+        background: #c3ecff;
+        border-radius: 14px;
+        .PostDate {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          text-align: justify;
+          color: #868788;
+          display: flex;
+          justify-content: right;
+        }
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          color: #868788;
+        }
+        .PageContent {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 26px;
+          color: #868788;
+        }
+      }
+      .PostAction {
+        width: 20%;
+        height: 220px;
+        background: #c3ecff;
+        border-radius: 14px;
+        padding: 20px 30px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        .EditAction {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 64.67px;
+            height: 64.67px;
+            object-fit: contain;
+          }
+          h4 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 21.7778px;
+            line-height: 25px;
+            color: #868788;
+          }
+        }
+        .PublishAction {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 64.67px;
+            height: 64.67px;
+            object-fit: contain;
+          }
+          h4 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 21.7778px;
+            line-height: 25px;
+            color: #868788;
+          }
+        }
+        .UnPublishAction {
+          display: flex;
+          flex-direction: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 64.67px;
+            height: 64.67px;
+            object-fit: contain;
+          }
+          h4 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21.7778px;
+            line-height: 25px;
+            color: #868788;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,197 @@
+.SectionThreeWrapper{
+    width: 100%;
+    height: 900px;
+    background: #C3ECFF;
+    border-radius: 144px 0px 0px 144px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    .ContainerBoxRightRds{
+        width: 90%;
+        margin: auto;
+        position: relative;
+        .NativeImgBox{
+            position: absolute;
+            top: -180px;
+            left: 50px;
+            width: 358px;
+            height: 386.83px;
+            background: #FFFAFA;
+            box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+            display: flex;
+            padding: 0px 30px;
+          
+
+            img{
+               margin-top: 70px;
+            }
+            .AppleImg{
+                 width: 130px;
+                height: 160px;
+            }
+            .AndroidImg{
+                width: 200px;
+                height: 200px;
+                margin-top: 150px;
+            }
+        }
+        .InfoContainer{
+            padding-top: 400px;
+            h3{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 46px;
+                color: #0F89C1;
+    
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #868788;
+                width: 894px;
+                height: 90px;
+    
+            }
+        }
+    }
+}
+
+// ResponsiveBreakpoint
+
+@media(max-width:767px) {
+    .SectionThreeWrapper{
+        width: 100%;
+        height: 800px;
+        background: #C3ECFF;
+        border-radius: 45px 0px 0px 45px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        .ContainerBoxRightRds{
+            width: 90%;
+            margin: auto;
+            position: relative;
+            .NativeImgBox{
+                position: absolute;
+                top: -100px;
+                left: 20px;
+                width: 183px;
+                height: 197.738px;
+                background: #FFFAFA;
+                box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 25px;
+                display: flex;
+                padding: 0px 30px;
+              
+    
+                img{
+                   margin-top: 30px;
+                }
+                .AppleImg{
+                    width: 59.637px;
+                    height: 85.196px;
+                }
+                .AndroidImg{
+                    width: 101.723px;
+                    height: 101.723px;
+                    margin-top: 80px;
+                    margin-left: -6px;
+                }
+            }
+            .InfoContainer{
+                padding-top: 200px;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #0F89C1;
+        
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #868788;
+                    width: 100%;
+                    height: auto;
+        
+                }
+            }
+        }
+    } 
+}
+
+//IPAD
+@media(max-width:1180px) and (min-width:768px) {
+    .SectionThreeWrapper{
+        width: 100%;
+        height: 600px;
+        background: #C3ECFF;
+        border-radius: 45px 0px 0px 45px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        .ContainerBoxRightRds{
+            width: 90%;
+            margin: auto;
+            position: relative;
+            .NativeImgBox{
+                position: absolute;
+                top: -100px;
+                left: 20px;
+                width: 183px;
+                height: 197.738px;
+                background: #FFFAFA;
+                box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 25px;
+                display: flex;
+                padding: 0px 30px;
+              
+    
+                img{
+                   margin-top: 30px;
+                }
+                .AppleImg{
+                    width: 59.637px;
+                    height: 85.196px;
+                }
+                .AndroidImg{
+                    width: 101.723px;
+                    height: 101.723px;
+                    margin-top: 80px;
+                    margin-left: -6px;
+                }
+            }
+            .InfoContainer{
+                padding-top: 200px;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #0F89C1;
+        
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #868788;
+                    width: 100%;
+                    height: auto;
+        
+                }
+            }
+        }
+    } 
+}

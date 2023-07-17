@@ -1,0 +1,242 @@
+.SectionTwoWrapper {
+  width: 100%;
+  height: 922px;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  .ConatinerBox {
+    width: 85%;
+    margin: auto;
+    .TestimonialItemBoxInfo {
+      background: #ffffff;
+      border-radius: 24px;
+      width: auto;
+      height: 384px;
+      position: relative;
+    }
+    .TestimonialItemBoxInfo .InfoBody {
+      padding: 70px 50px;
+    }
+    .TestimonialItemBoxInfo .QuoteImg {
+      width: 65px !important;
+      height: 60.12px !important;
+    }
+    .TestimonialItemBoxInfo p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: justify;
+      color: #020202;
+    }
+    .SliderBottom {
+      background: #e4eff4 !important;
+      position: absolute;
+      width: 100%;
+      height: 125.28px;
+      bottom: 0;
+      padding: 20px;
+      border-radius: 0px 0px 24px 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      img {
+        width: 80.73px !important;
+        height: 80.9px !important;
+        border-radius: 100% !important;
+      }
+      .TextInfo h5 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #010101;
+      }
+      .TextInfo p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: -6px;
+        line-height: 24px;
+        text-align: justify;
+        color: #0f89c1;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+
+@media (max-width: 767px) {
+  .SectionTwoWrapper {
+    width: 100%;
+    height: 922px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    .ConatinerBox {
+      width: 85%;
+      margin: auto;
+      .TestimonialItemBoxInfo {
+        background: #ffffff;
+        border-radius: 24px;
+        width: auto;
+        height: 384px;
+        position: relative;
+      }
+      .TestimonialItemBoxInfo .InfoBody {
+        padding: 70px 50px;
+      }
+      .TestimonialItemBoxInfo .QuoteImg {
+        width: 65px !important;
+        height: 60.12px !important;
+      }
+      .TestimonialItemBoxInfo p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: justify;
+        color: #020202;
+      }
+      .SliderBottom {
+        background: #e4eff4 !important;
+        position: absolute;
+        width: 100%;
+        height: 125.28px;
+        bottom: 0;
+        padding: 20px;
+        border-radius: 0px 0px 24px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        img {
+          width: 80.73px !important;
+          height: 80.9px !important;
+          border-radius: 100% !important;
+        }
+        .TextInfo h5 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 18px;
+          color: #010101;
+        }
+        .TextInfo p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          margin-top: -6px;
+          line-height: 24px;
+          text-align: justify;
+          color: #0f89c1;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+//IPAD
+
+@media (max-width: 1180px) and (min-width: 768px) {
+  .SectionOneWrapper {
+    width: 100%;
+    height: 922px;
+    background: #c3ecff;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    border-radius: 0px 144px 144px 0px;
+    padding-bottom: 100px;
+
+    .TestimonialContainer {
+      width: 100%;
+      margin: auto;
+      padding-top: 100px;
+      position: relative;
+      h3 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        color: #0f89c1;
+
+        .SliderBox {
+          margin-top: 30px;
+        }
+      }
+      .QuoteBgIcon {
+        width: 253.01px;
+        height: 234px;
+        margin-left: 500px;
+        margin-top: -100px;
+        // position: absolute;
+        margin-bottom: 50px;
+        // height: 400px;
+      }
+    }
+
+    .TestimonialItemBoxInfo .InfoBody {
+      padding: 70px 50px;
+    }
+    .TestimonialItemBoxInfo .QuoteImg {
+      width: 65px !important;
+      height: 60.12px !important;
+    }
+    .TestimonialItemBoxInfo p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: justify;
+      color: #020202;
+    }
+    .SliderBottom {
+      background: #e4eff4 !important;
+      position: absolute;
+      width: 100%;
+      height: 125.28px;
+      bottom: 0;
+      padding: 20px;
+      border-radius: 0px 0px 24px 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      img {
+        width: 80.73px !important;
+        height: 80.9px !important;
+        border-radius: 100% !important;
+      }
+      .TextInfo h5 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #010101;
+      }
+      .TextInfo p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: -6px;
+        line-height: 24px;
+        text-align: justify;
+        color: #0f89c1;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

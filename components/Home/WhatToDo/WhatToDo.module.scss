@@ -1,0 +1,336 @@
+.WhatToDoWrapper {
+  width: 100%;
+  height: 1083px;
+  background: #c4ecff;
+  padding: 60px 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  .ItemBoxeContainer {
+    margin-top: 10px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+    .ItemBox {
+      background: #fffafa;
+      box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 25px;
+      width: 358px;
+      height: 386.83px;
+      padding: 40px 60px;
+      text-align: center;
+      img {
+        width: 167px;
+        height: 167px;
+      }
+      .InfoContainer {
+        text-align: left;
+        margin-top: 20px;
+        h5 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 21px;
+          text-align: justify;
+          color: #0e9ad6;
+          text-transform: uppercase;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: left;
+          color: #0e9ad6;
+        }
+      }
+    }
+  }
+
+  .WhatToDoBoxContainer {
+    margin-top: 100px;
+    h1 {
+      text-align: center;
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 46px;
+      color: #0f89c1;
+    }
+    .WhatToDoItemBoxContainer {
+      margin-top: 60px;
+      display: flex;
+      gap: 180px;
+      justify-content: center;
+      .WhatToDoItemBox {
+        text-align: center;
+        cursor: pointer;
+        img {
+          width: 116.71px;
+          height: 116.71px;
+          margin-bottom: 20px;
+        }
+        h4 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 22px;
+          text-align: center;
+          color: #868788;
+        }
+      }
+    }
+    .ButtonContainer {
+      margin-top: 100px;
+      text-align: center;
+      cursor: pointer;
+      button {
+        width: 265px;
+        height: 76px;
+        border: 3px solid #ff5f15;
+        border-radius: 45px;
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #ff5f15;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+// Responsive Breakpoint
+
+@media (max-width: 767px){
+  .WhatToDoWrapper {
+    width: 100%;
+    height: auto !important;
+    background: #c4ecff;
+    padding: 60px 5px;
+
+    .ItemBoxeContainer {
+      // margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: left;
+      .ItemBox {
+        background: #fffafa;
+        box-shadow: 31.8268px 24.1648px 25.933px 3.53631px rgba(0, 0, 0, 0.1);
+        border-radius: 14.7346px;
+        width: auto !important;
+        height: 146px;
+        padding: 10px 10px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 98.43px;
+          height: 98.43px;
+        }
+        .InfoContainer {
+          text-align: left;
+          margin-top: 20px;
+          padding-right: 15px;
+          h5 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18px;
+            text-align: justify;
+            color: #0e9ad6;
+            text-transform: uppercase;
+          }
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: justify;
+            color: #0e9ad6;
+          }
+        }
+      }
+    }
+
+    .WhatToDoBoxContainer {
+      margin-top: 100px;
+      h1 {
+        text-align: center;
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #0f89c1;
+      }
+      .WhatToDoItemBoxContainer {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 60px;
+        justify-content: center;
+        .WhatToDoItemBox {
+          text-align: center;
+          img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+          }
+          h4 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #868788;
+          }
+        }
+      }
+      .ButtonContainer {
+        margin-top: 100px;
+        text-align: center;
+        button {
+          width: 180px;
+          height: 39px;
+          border: 3px solid #ff5f15;
+          border-radius: 45px;
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: #ff5f15;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+// IPAD
+
+@media (max-width: 1180px) and (min-width: 768px) {
+  .WhatToDoWrapper {
+    width: 100%;
+    height: auto !important;
+    background: #c4ecff;
+    padding: 60px 5px;
+
+    .ItemBoxeContainer {
+      // margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: left;
+      .ItemBox {
+        background: #fffafa;
+        box-shadow: 31.8268px 24.1648px 25.933px 3.53631px rgba(0, 0, 0, 0.1);
+        border-radius: 14.7346px;
+        width: auto !important;
+        height: 146px;
+        padding: 10px 10px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 98.43px;
+          height: 98.43px;
+        }
+        .InfoContainer {
+          text-align: left;
+          margin-top: 20px;
+          padding-right: 15px;
+          h5 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18px;
+            text-align: justify;
+            color: #0e9ad6;
+            text-transform: uppercase;
+          }
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: justify;
+            color: #0e9ad6;
+          }
+        }
+      }
+    }
+
+    .WhatToDoBoxContainer {
+      margin-top: 100px;
+      h1 {
+        text-align: center;
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #0f89c1;
+      }
+      .WhatToDoItemBoxContainer {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 60px;
+        justify-content: center;
+        .WhatToDoItemBox {
+          text-align: center;
+          img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+          }
+          h4 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #868788;
+          }
+        }
+      }
+      .ButtonContainer {
+        margin-top: 100px;
+        text-align: center;
+        button {
+          width: 180px;
+          height: 39px;
+          border: 3px solid #ff5f15;
+          border-radius: 45px;
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: #ff5f15;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

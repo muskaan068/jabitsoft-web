@@ -1,0 +1,180 @@
+.SectionFourWrapper{
+    width: 100%;
+    height: 900px;
+    background: #C3ECFF;
+    border-radius: 0px 144px 144px 0px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    .ContainerBoxLeftRds{
+        width: 90%;
+        margin: auto;
+        position: relative;
+        .NativeImgBox{
+            position: absolute;
+            top: -180px;
+            right: 50px;
+            width: 358px;
+            height: 386.83px;
+            background: #FFFAFA;
+            box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+            display: flex;
+            // padding: 0px 30px;
+            justify-content: center;
+            align-items: center;
+          
+
+            img{
+                width: 206px;
+                height: 206px;
+            }
+            
+        }
+        .InfoContainer{
+            padding-top: 400px;
+            h3{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 46px;
+                color: #0F89C1;
+    
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #868788;
+                width: 894px;
+                height: 90px;
+    
+            }
+        }
+    }
+}
+
+// Responsive breakpoint 
+@media(max-width:767px) {
+    .SectionFourWrapper{
+        width: 100%;
+        height: 900px;
+        background: #C3ECFF;
+        border-radius: 0px 45px 45px 0px;
+        margin-top: 300px;
+        margin-bottom: 50px;
+        .ContainerBoxLeftRds{
+            width: 90%;
+            margin: auto;
+            position: relative;
+            .NativeImgBox{
+                position: absolute;
+                top: -100px;
+                right: 20px;
+                width: 180.466px;
+                height: 195px;
+                background: #FFFAFA;
+                box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 25px;
+                display: flex;
+                // padding: 0px 30px;
+                justify-content: center;
+                align-items: center;
+              
+    
+                img{
+                    width: 103.843px;
+                    height: 103.843px;
+                }
+                
+            }
+            .InfoContainer{
+                padding-top: 200px;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #0F89C1;
+        
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #868788;
+                    width: 100%;
+                    height: auto;
+        
+                }
+            }
+        }
+    }
+}
+
+//IPAD
+
+@media(max-width:1180px) and (min-width:768px) {
+    .SectionFourWrapper{
+        width: 100%;
+        height: 650px;
+        background: #C3ECFF;
+        border-radius: 0px 45px 45px 0px;
+        margin-top: 300px;
+        margin-bottom: 50px;
+        .ContainerBoxLeftRds{
+            width: 90%;
+            margin: auto;
+            position: relative;
+            .NativeImgBox{
+                position: absolute;
+                top: -100px;
+                right: 20px;
+                width: 180.466px;
+                height: 195px;
+                background: #FFFAFA;
+                box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 25px;
+                display: flex;
+                // padding: 0px 30px;
+                justify-content: center;
+                align-items: center;
+              
+    
+                img{
+                    width: 103.843px;
+                    height: 103.843px;
+                }
+                
+            }
+            .InfoContainer{
+                padding-top: 200px;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #0F89C1;
+        
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #868788;
+                    width: 100%;
+                    height: auto;
+        
+                }
+            }
+        }
+    }
+}

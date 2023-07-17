@@ -1,0 +1,339 @@
+.SectionFourWrapper{
+    width: 100%;
+    height: 922px;
+    background: #C3ECFF;
+    margin-top: 300px;
+    margin-bottom: 850px;
+    border-radius: 144px 0px 0px 144px;
+    position: relative;
+   
+    .ContainerBoxLeftRds{
+        height: 922px;
+        display: flex;
+        align-items: center;
+        .ContentBox{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            .InfoText{
+                width: 100%;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 46px;
+                    color: #0F89C1;
+                    width: 100%;
+    
+                }
+                p{
+    
+                    width: 1020px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #868788;
+                    width: 100%;
+                    height: 300px;
+                }
+            }
+            img{
+                width: 421px;
+                height: 421px;
+                object-fit: cover;
+            }
+           
+        }
+
+     
+        
+    }
+    .ItemBoxContainer{
+        
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        .ItemBox{
+            width: 390.66px;
+            height: 465px;
+            background: rgba(0, 0, 0, 0.15);
+            box-shadow: 55.3247px 42.0058px 45.0794px 6.14719px rgba(0, 0, 0, 0.1);
+            border-radius: 18.9641px;
+            cursor: pointer;
+            img{
+                width: 390.72px;
+                height: 280.87px;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+            h3{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                color: #0F89C1;
+                text-align: center;
+                padding: 0px 10px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                text-align: justify;
+                color: #868788;
+                padding: 5px 20px;
+
+            }
+        }
+        .ItemBox:hover{
+            background:#fff;
+            transition: ease-in-out 0.5s;
+            transform: scale(1.3);
+        }
+    }
+}
+
+//Responsive Breakpoint
+
+@media(max-width:767px){
+    .SectionFourWrapper{
+        width: 100%;
+        height: auto;
+        background: #C3ECFF;
+        margin-top: 100px;
+        margin-bottom: 450px;
+        border-radius: 45px 0px 0px 45px;
+        padding-bottom: 50px;
+        position: relative;
+       
+        .ContainerBoxLeftRds{
+            height: auto;
+            display: flex;
+            align-items: center;
+            padding-top: 300px;
+            .ContentBox{
+                width: 100%;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                gap: 30px;
+                .InfoText{
+                    width: 100%;
+                    h3{
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #0F89C1;
+                        width: 100%;
+        
+                    }
+                    p{
+        
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;                        
+                        color: #868788;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                img{
+                    width: 283px;
+                    height: 283px;
+                    object-fit: cover;
+                    position: absolute;
+                    top: -34px;
+                }
+               
+            }
+    
+         
+            
+        }
+        .ItemBoxContainer{
+            
+            width: 100%;
+            margin: auto;
+            display: flex;
+            margin-top: 10px;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 30px;
+            .ItemBox{
+                width: 100%;
+                height: 465px;
+                background: rgba(0, 0, 0, 0.15);
+                box-shadow: 55.3247px 42.0058px 45.0794px 6.14719px rgba(0, 0, 0, 0.1);
+                border-radius: 18.9641px;
+                cursor: pointer;
+                img{
+                    border-radius: 18.9641px;
+                    width: 100%;
+                    height: 280.87px;
+                    object-fit: cover;
+                    margin-bottom: 20px;
+                }
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0F89C1;
+                    text-align: center;
+                    padding: 0px 10px;
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    text-align: justify;
+                    color: #868788;
+                    padding: 5px 20px;
+    
+                }
+            }
+            .ItemBox:hover{
+                background:#fff;
+                transition: ease-in-out 0.5s;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+//IPAD
+
+@media(max-width:1180px) and (min-width:768px) {
+    .SectionFourWrapper{
+        width: 100%;
+        height: auto;
+        background: #C3ECFF;
+        margin-top: 100px;
+        margin-bottom: 300px;
+        border-radius: 45px 0px 0px 45px;
+        padding-bottom: 50px;
+        position: relative;
+       
+        .ContainerBoxLeftRds{
+            height: auto;
+            display: flex;
+            align-items: center;
+            padding-top: 300px;
+            .ContentBox{
+                width: 100%;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                gap: 30px;
+                .InfoText{
+                    width: 100%;
+                    h3{
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #0F89C1;
+                        width: 100%;
+        
+                    }
+                    p{
+        
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;                        
+                        color: #868788;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                img{
+                    width: 283px;
+                    height: 283px;
+                    object-fit: cover;
+                    position: absolute;
+                    top: -34px;
+                }
+               
+            }
+    
+         
+            
+        }
+        .ItemBoxContainer{
+            
+            width: 100%;
+            margin: auto;
+            display: flex;
+            margin-top: 10px;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 30px;
+            .ItemBox{
+                width: 100%;
+                height: 465px;
+                background: rgba(0, 0, 0, 0.15);
+                box-shadow: 55.3247px 42.0058px 45.0794px 6.14719px rgba(0, 0, 0, 0.1);
+                border-radius: 18.9641px;
+                cursor: pointer;
+                img{
+                    border-radius: 18.9641px;
+                    width: 100%;
+                    height: 280.87px;
+                    object-fit: cover;
+                    margin-bottom: 20px;
+                }
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #0F89C1;
+                    text-align: center;
+                    padding: 0px 10px;
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    text-align: justify;
+                    color: #868788;
+                    padding: 5px 20px;
+    
+                }
+            }
+            .ItemBox:hover{
+                background:#fff;
+                transition: ease-in-out 0.5s;
+                transform: scale(1.1);
+            }
+        }
+    }
+}

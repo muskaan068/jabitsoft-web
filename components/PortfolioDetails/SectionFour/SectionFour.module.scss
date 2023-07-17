@@ -1,0 +1,193 @@
+.SectionFourWrapper {
+  width: 100%;
+  height: auto;
+  background: #c3ecff;
+  margin-top: 300px;
+  margin-bottom: 50px;
+  border-radius: 0px 144px 144px 0px;
+  padding-bottom: 100px;
+
+  .ContainerBoxLeftRds {
+    height: 922px;
+    display: flex;
+    flex-direction: column;
+    // padding-top: 10%;
+    .ContentBox {
+      width: 90%;
+      margin: auto;
+      h3 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #0f89c1;
+        width: 100%;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #868788;
+        width: 728px;
+        // height: 200px;
+      }
+    }
+    .OurToolsLogoContainer {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      // justify-content: space-between;
+      gap: 40px;
+      margin-top: 150px;
+      .ImageBox {
+        width: 86px;
+        height: 83px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #0f89c1;
+        border-radius: 8px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+
+@media (max-width: 767px) {
+  .SectionFourWrapper {
+    width: 100%;
+    height: auto;
+    background: #c3ecff;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    border-radius: 0px 144px 144px 0px;
+    padding-bottom: 100px;
+
+    .ContainerBoxLeftRds {
+      height: 922px;
+      display: flex;
+      flex-direction: column;
+      // padding-top: 10%;
+      .ContentBox {
+        width: 90%;
+        margin: auto;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 46px;
+          color: #0f89c1;
+          width: 100%;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #868788;
+          width: 728px;
+          // height: 200px;
+        }
+      }
+      .OurToolsLogoContainer {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        // justify-content: space-between;
+        gap: 40px;
+        margin-top: 150px;
+        .ImageBox {
+          width: 86px;
+          height: 83px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #0f89c1;
+          border-radius: 8px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+//IPAD
+
+@media (max-width: 1180px) and (min-width: 768px) {
+  .SectionFourWrapper {
+    width: 100%;
+    height: auto;
+    background: #c3ecff;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    border-radius: 0px 144px 144px 0px;
+    padding-bottom: 100px;
+
+    .ContainerBoxLeftRds {
+      height: 922px;
+      display: flex;
+      flex-direction: column;
+      // padding-top: 10%;
+      .ContentBox {
+        width: 90%;
+        margin: auto;
+        h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 46px;
+          color: #0f89c1;
+          width: 100%;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #868788;
+          width: 728px;
+          // height: 200px;
+        }
+      }
+      .OurToolsLogoContainer {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        // justify-content: space-between;
+        gap: 40px;
+        margin-top: 150px;
+        .ImageBox {
+          width: 86px;
+          height: 83px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #0f89c1;
+          border-radius: 8px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

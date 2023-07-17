@@ -1,0 +1,295 @@
+.ProjectsWrapper{
+    height: auto;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+    .ContainerBox{
+        display: block;
+    .ProjectsItem{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+        img{
+            width: 729px;
+            height: 467.15px;
+            object-fit: contain;
+        }
+        .ProjectInfo{
+            position: relative;
+            h4{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                letter-spacing: 0.115em;
+                color: #70CEFA;
+                
+            }
+            span{
+                position: absolute;
+                max-width: 170px;
+                width: 100%;
+                height: 0px;
+                border: 2px solid #70CEFA;
+                border-radius: 40px;
+            }
+            p{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 37px;
+                color: #70CEFA;
+                width: 346px;
+                height: 74px;
+                margin-top:20px;
+            }
+            button{
+                border: 3px solid #0F89C1;
+                border-radius: 45px;
+                width: 272px;
+                height: 76px;
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+                color: #0F89C1;
+                background-color: transparent;
+
+            }
+        }
+       
+    }
+    
+    .ButtonContainer{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        button{
+            border: 3px solid #FF5F15;
+            border-radius: 45px;
+            width: 176px;
+            height: 76px;
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #FF5F15;
+            margin-bottom: 20px;
+            background: transparent;
+        }
+    }
+
+}
+.ResponsiveContainerBox{
+    display: none;
+}
+}
+
+// Responsive Breakpoint
+
+@media(max-width:767px) {
+    .ProjectsWrapper{
+        height: auto;
+        width: 95%;
+        margin: auto;
+        padding-top: 120px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        .ResponsiveContainerBox{
+            display: block;
+        .ProjectsItem{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 5px;
+            flex-direction: column;
+            gap: 50px;
+            img{
+                width: 100% !important;
+                height: 231px;
+                object-fit: contain;
+            }
+            .ProjectInfo{
+                position: relative;
+                h4{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 11px;
+                    letter-spacing: 0.115em;
+                    color: #70CEFA;
+                    
+                }
+                span{
+                    position: absolute;
+                    width: 121px;
+                    height: 0px;
+                    border: 1.5px solid #70CEFA;
+                    border-radius: 40px;
+                }
+                p{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #70CEFA;
+                    width: 130px;
+                    height: 28px;
+                    margin-top:20px;
+                }
+                button{
+                    border: 2px solid #0F89C1;
+                    border-radius: 25px;
+                    width: 171px;
+                    height: 38px;
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #0F89C1;
+                    background-color: transparent;
+    
+                }
+            }
+           
+        }
+        
+        .ButtonContainer{
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            button{
+                border: 1.55127px solid #FF5F15;
+                border-radius: 23.269px;
+                width: 160px;
+                height: 39px;
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: #FF5F15;
+                margin-bottom: 20px;
+                background: transparent;
+            }
+        }
+    
+    }
+    .ContainerBox{
+        display: none;
+    }
+    }
+}
+
+// IPAD
+@media(max-width:1180px) and (min-width:768px) {
+    .ProjectsWrapper{
+        height: auto;
+        width: 95%;
+        margin: auto;
+        padding-top: 120px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        .ResponsiveContainerBox{
+            display: block;
+        .ProjectsItem{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 5px;
+            flex-direction: column;
+            gap: 50px;
+            img{
+                width: 100% !important;
+                height: auto;
+                object-fit: contain;
+            }
+            .ProjectInfo{
+                position: relative;
+                h4{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 11px;
+                    letter-spacing: 0.115em;
+                    color: #70CEFA;
+                    
+                }
+                span{
+                    position: absolute;
+                    width: 121px;
+                    height: 0px;
+                    border: 1.5px solid #70CEFA;
+                    border-radius: 40px;
+                }
+                p{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #70CEFA;
+                    width: 130px;
+                    height: 28px;
+                    margin-top:20px;
+                }
+                button{
+                    border: 2px solid #0F89C1;
+                    border-radius: 25px;
+                    width: 171px;
+                    height: 38px;
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #0F89C1;
+                    background-color: transparent;
+    
+                }
+            }
+           
+        }
+        
+        .ButtonContainer{
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            button{
+                border: 1.55127px solid #FF5F15;
+                border-radius: 23.269px;
+                width: 160px;
+                height: 39px;
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: #FF5F15;
+                margin-bottom: 20px;
+                background: transparent;
+            }
+        }
+    
+    }
+    .ContainerBox{
+        display: none;
+    }
+    }
+}

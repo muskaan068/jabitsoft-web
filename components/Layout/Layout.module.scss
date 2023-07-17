@@ -1,0 +1,26 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.maincontainer {
+  width: 100%;
+  height: 90vh;
+  transition: margin 0.2s linear;
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+  padding-top: 135px;
+}
+.maincontainermobile {
+  width: 100%;
+  height: 90vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: margin 0.2s linear;
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}

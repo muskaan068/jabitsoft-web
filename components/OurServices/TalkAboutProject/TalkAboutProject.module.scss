@@ -1,0 +1,588 @@
+.ContactUsWrapper {
+  width: 100%;
+  height: 1100px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  .ContactUsSubWrapper {
+    height: 922px;
+    width: 100%;
+    background: #c4ecff;
+    border-top-left-radius: 144px;
+    border-bottom-left-radius: 144px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    .ContainerBox {
+      width: 90%;
+      margin: auto;
+      padding-top: 120px;
+      padding-bottom: 30px;
+      display: flex;
+      gap: 50px;
+      .InfoText h3 {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: justify;
+        color: #0f89c1;
+      }
+      .InfoText p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 34px;
+        color: #868788;
+        width: 728px;
+        height: auto;
+      }
+    }
+    .ContactUsFormContainer {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      // padding-top: 30px;
+      // padding-bottom: 30px;
+      background: #f9f9f9;
+      box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 24px;
+      display: flex;
+      justify-content: space-between;
+
+      .FormContainer {
+        width: 100%;
+
+        .ContactForm {
+          padding: 30px 60px;
+          h3 {
+            text-align: center;
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #0f89c1;
+          }
+          .Form {
+            width: 100%;
+            .InputContainer label {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 27px;
+              color: #868788;
+            }
+            .InputContainer .InputBox {
+              height: 60px !important;
+              background: #c3ecff !important;
+              border-radius: 10px !important;
+              border: none !important;
+            }
+            .InputContainer .InputBox:focus {
+              border: none !important;
+            }
+            .InputContainer .TextAreaBox {
+              background: #c3ecff !important;
+              border-radius: 10px !important;
+              border: none !important;
+            }
+            .InputContainer .TextAreaBox:focus {
+              border: none !important;
+            }
+            .ButtonWrapper {
+              width: 100% !important;
+              display: flex;
+              justify-content: center;
+              .ButtonContainer {
+                // text-align: center;
+                display: flex;
+                justify-content: center;
+                background: #c3ecff;
+                border-radius: 50%;
+                width: 90.16px;
+                height: 90.16px;
+                justify-content: center;
+                button {
+                  border: none !important;
+                  background: transparent;
+                }
+              }
+            }
+          }
+        }
+      }
+      .ContactInfoContainer {
+        width: 100%;
+        background: #0f89c1;
+        border-radius: 24px;
+        .ContactInformation {
+          padding: 30px;
+          h3 {
+            font-family: "Helvetica";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #ffffff;
+            text-align: center;
+          }
+          .AddressContainer {
+            width: 70%;
+            margin: auto;
+            margin-top: 70px;
+            margin-bottom: 50px;
+            .AddressItem {
+              display: flex;
+              gap: 30px;
+              align-items: center;
+              margin-bottom: 20px;
+              .Icon {
+                width: 36px;
+                height: 36px;
+              }
+              .AddressText {
+                h3 {
+                  font-family: "Helvetica";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 28px;
+                  color: #ffffff;
+                  text-align: left;
+                  margin-bottom: 0px;
+                }
+                p {
+                  font-family: "Poppins";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 24px;
+                  color: #ffffff;
+                  width: 324px;
+                }
+              }
+            }
+          }
+          .BottomSocialLinkContainer {
+            width: 50%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -0px;
+            .SocialLinks {
+              display: flex !important;
+              gap: 40px !important;
+              margin-top: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+@media (max-width: 767px) {
+  .ContactUsWrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 350px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    .ContactUsSubWrapper {
+      height: 922px;
+      width: 100%;
+      background: #c4ecff;
+      border-radius: 43px;
+      padding-bottom: 100px;
+      padding-top: 0px;
+      .ContainerBox {
+        width: 90%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .InfoText h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 18px;
+          text-align: justify;
+          color: #0f89c1;
+        }
+        .InfoText p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+          color: #868788;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .ContactUsFormContainer {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        // padding-top: 30px;
+        // padding-bottom: 30px;
+        background: #f9f9f9;
+        box-shadow: 14.3655px 10.9071px 11.7052px 1.59617px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .FormContainer {
+          width: 100%;
+          .ContactForm {
+            padding: 30px 20px;
+            h3 {
+              text-align: center;
+              font-family: "Helvetica";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 18px;
+              color: #0f89c1;
+            }
+            .Form {
+              width: 100%;
+              .InputContainer label {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                color: #868788;
+              }
+              .InputContainer .InputBox {
+                height: 35px !important;
+                background: #c3ecff !important;
+                border-radius: 2.66028px !important;
+                border: none !important;
+              }
+              .InputContainer .InputBox:focus {
+                border: none !important;
+              }
+              .InputContainer .TextAreaBox {
+                background: #c3ecff !important;
+                border-radius: 2.66028px !important;
+                border: none !important;
+                resize: none;
+              }
+              .InputContainer .TextAreaBox:focus {
+                border: none !important;
+              }
+              .ButtonWrapper {
+                width: 100% !important;
+                display: flex;
+                justify-content: center;
+                .ButtonContainer {
+                  // text-align: center;
+                  display: flex;
+                  justify-content: center;
+                  background: #c3ecff;
+                  border-radius: 50%;
+                  width: 44.06px;
+                  height: 43px;
+                  justify-content: center;
+                  button {
+                    border: none !important;
+                    background: transparent;
+                    img {
+                      width: 25.38px;
+                      height: 25.38px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .ContactInfoContainer {
+          width: 100%;
+          background: #0f89c1;
+          border-radius: 24px;
+          .ContactInformation {
+            padding: 30px;
+            h3 {
+              font-family: "Helvetica";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 18px;
+              color: #ffffff;
+              text-align: center;
+              margin-top: 30px;
+            }
+            .AddressContainer {
+              width: 100%;
+              margin: auto;
+              margin-top: 7px;
+              margin-bottom: 50px;
+              .AddressItem {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: -20px;
+                .Icon {
+                  width: 14.43px;
+                  height: 14.43px;
+                }
+                .AddressText {
+                  h3 {
+                    font-family: "Helvetica";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #ffffff;
+                    text-align: left;
+                    margin-bottom: 0px;
+                  }
+                  p {
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    width: auto;
+                  }
+                }
+              }
+            }
+            .BottomSocialLinkContainer {
+              width: 50%;
+              margin: auto;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: -0px;
+              .SocialLinks {
+                display: flex !important;
+                gap: 40px !important;
+                margin-top: 10px;
+                img {
+                  width: 16.1px;
+                  height: 16.1px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) and (min-width: 768px) {
+  .ContactUsWrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 350px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    .ContactUsSubWrapper {
+      height: 922px;
+      width: 100%;
+      background: #c4ecff;
+      border-radius: 43px;
+      padding-bottom: 100px;
+      padding-top: 0px;
+      .ContainerBox {
+        width: 90%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .InfoText h3 {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 18px;
+          text-align: justify;
+          color: #0f89c1;
+        }
+        .InfoText p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+          color: #868788;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .ContactUsFormContainer {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        // padding-top: 30px;
+        // padding-bottom: 30px;
+        background: #f9f9f9;
+        box-shadow: 14.3655px 10.9071px 11.7052px 1.59617px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .FormContainer {
+          width: 100%;
+          .ContactForm {
+            padding: 30px 20px;
+            h3 {
+              text-align: center;
+              font-family: "Helvetica";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 18px;
+              color: #0f89c1;
+            }
+            .Form {
+              width: 100%;
+              .InputContainer label {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                color: #868788;
+              }
+              .InputContainer .InputBox {
+                height: 35px !important;
+                background: #c3ecff !important;
+                border-radius: 2.66028px !important;
+                border: none !important;
+              }
+              .InputContainer .InputBox:focus {
+                border: none !important;
+              }
+              .InputContainer .TextAreaBox {
+                background: #c3ecff !important;
+                border-radius: 2.66028px !important;
+                border: none !important;
+                resize: none;
+              }
+              .InputContainer .TextAreaBox:focus {
+                border: none !important;
+              }
+              .ButtonWrapper {
+                width: 100% !important;
+                display: flex;
+                justify-content: center;
+                .ButtonContainer {
+                  // text-align: center;
+                  display: flex;
+                  justify-content: center;
+                  background: #c3ecff;
+                  border-radius: 50%;
+                  width: 44.06px;
+                  height: 43px;
+                  justify-content: center;
+                  button {
+                    border: none !important;
+                    background: transparent;
+                    img {
+                      width: 25.38px;
+                      height: 25.38px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .ContactInfoContainer {
+          width: 100%;
+          background: #0f89c1;
+          border-radius: 24px;
+          .ContactInformation {
+            padding: 30px;
+            h3 {
+              font-family: "Helvetica";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 18px;
+              color: #ffffff;
+              text-align: center;
+              margin-top: 30px;
+            }
+            .AddressContainer {
+              width: 100%;
+              margin: auto;
+              margin-top: 7px;
+              margin-bottom: 50px;
+              .AddressItem {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: -20px;
+                .Icon {
+                  width: 14.43px;
+                  height: 14.43px;
+                }
+                .AddressText {
+                  h3 {
+                    font-family: "Helvetica";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #ffffff;
+                    text-align: left;
+                    margin-bottom: 0px;
+                  }
+                  p {
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    width: auto;
+                  }
+                }
+              }
+            }
+            .BottomSocialLinkContainer {
+              width: 50%;
+              margin: auto;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: -0px;
+              .SocialLinks {
+                display: flex !important;
+                gap: 40px !important;
+                margin-top: 10px;
+                img {
+                  width: 16.1px;
+                  height: 16.1px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

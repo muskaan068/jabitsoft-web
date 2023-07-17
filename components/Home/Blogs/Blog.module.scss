@@ -1,0 +1,715 @@
+.BlogWrapper{
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    z-index: 1;
+    .ContainerBox{
+        width: 90%;
+        margin:auto;
+        .InfoText h1{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 46px;
+            text-align: justify;
+            color: #0F89C1;
+        }
+        .InfoText p{
+           font-family: 'Poppins';
+           font-style: normal;
+           font-weight: 500;
+           font-size: 24px;
+           line-height: 36px;
+           color: #868788;
+           width: 728px;
+           height: 105px;
+        }
+    }
+    .BlogSliderBoxContainer{
+        padding-top: 50px;
+        text-align: center;
+        h4{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 20px;
+            color: #868788;
+        }
+        .ResponsiveBlogBox{display: none;}
+        .BlogBox{
+            display: block;
+            text-align: left;
+            margin-top: 20px;
+            .BlogItem{
+                text-align: left;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                max-height: 360px;
+                max-width: 520px;
+                border-radius: 24px;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                img{
+                    margin-top: 10px;
+                    padding: 0px;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 24px;
+                    z-index: 11111;
+                }
+                .BlogContent{
+                    position: absolute;
+                    z-index: 9999999;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    padding: 20px 50px;
+
+                    .BlogTitle{
+                        margin-top: 70px;
+                        h3{
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 28px;
+                            line-height: 37px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .BlogBottom{
+                        position: absolute;
+                        bottom: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 50px;
+                        align-items: center;
+                        button{
+                            width: 160px;
+                            height: 56px;
+                            border: 3px solid #FFFFFF;
+                            border-radius: 45px;
+                            background: transparent;
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 22px;
+                            line-height: 28px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                        .BlogDateBox{
+                            display: flex;
+                            align-items: center;
+                            gap: 3px;
+                            img{
+                                width: 25px;
+                                height: 25px;
+                                margin-top: 5px;
+                            }
+                            span{
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 27px;
+                                text-align: justify;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .BlogContentBox{
+        display: block;
+        margin-top: 100px;
+        .BlogAllButton{
+            border: none !important;
+            margin-left: 40px;
+            background-color: transparent;
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #0F89C1;
+            img{
+                width: 45px;
+                height: 45px;
+                margin-left: 10px;
+            }
+           
+        }
+        .BlogListContainer{
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            z-index: 99999999999;
+            .BlogItem{
+                text-align: left;
+                width: 500px;
+                height: 320px;
+                border-radius: 24px;
+                // background: #A1D0FB;
+                position: relative;
+                z-index: 1111111;
+                img{
+                    margin-top: -7px;
+                    padding: 0px;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 24px;
+                    z-index: 11111;
+                }
+                .BlogContent{
+                    position: absolute;
+                    z-index: 9999999;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    padding: 20px 40px;
+
+                    .BlogTitle{
+                        margin-top: 70px;
+                        width: 99%;
+                        h3{
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 22px;
+                            line-height: 30px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .BlogBottom{
+                        position: absolute;
+                        bottom: 30px;
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 50px;
+                        align-items: center;
+                        button{
+                            width: 160px;
+                            height: 56px;
+                            border: 3px solid #FFFFFF;
+                            border-radius: 45px;
+                            background: transparent;
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 22px;
+                            line-height: 28px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                        .BlogDateBox{
+                            display: flex;
+                            align-items: center;
+                            gap: 3px;
+                            img{
+                                width: 25px;
+                                height: 25px;
+                                margin-top: 5px;
+                            }
+                            span{
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 27px;
+                                text-align: justify;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .RespnsiveBlogContentBox{display: none;}
+}
+//Responsive Breakpoint
+@media(max-width:767px){
+    .BlogWrapper{
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 00px;
+        z-index: 1;
+        .ContainerBox{
+            width: 95%;
+            margin:auto;
+            .InfoText h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 18px;
+                text-align: justify;
+                color: #0F89C1;
+            }
+            .InfoText p{
+               font-family: 'Poppins';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 21px;
+               color: #868788;
+               width: 100%;
+               height: 81px;
+            }
+        }
+        .BlogSliderBoxContainer{
+            padding-top: 50px;
+            text-align: center;
+            h4{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 18px;
+                margin-bottom: 20px;
+                color: #868788;
+            }
+            .BlogBox{display: none;}
+            .ResponsiveBlogBox{
+                display: block;
+                text-align: left;
+                margin-top: 20px;
+                .BlogItem{
+                    text-align: left;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 24px;
+                    background: transparent;
+                    position: relative;
+                    img{
+                        margin-top: -7px;
+                        padding: 0px;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 24px;
+                        z-index: 11111;
+                    }
+                    .BlogContent{
+                        position: absolute;
+                        z-index: 9999999;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        padding: 20px 30px;
+    
+                        .BlogTitle{
+                            margin-top: 50px;
+                            h3{
+                                width: 100%;
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 24px;
+                                width: 80%;
+                               
+                                color: #FFFFFF;
+                            }
+                        }
+                        .BlogBottom{
+                            position: absolute;
+                            bottom: 30px;
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 50px;
+                            align-items: center;
+                            button{
+                                width: 78.47px;
+                                height: 28.68px;
+                                border: 1.84211px solid #FFFFFF;
+                                border-radius: 16.5789px;
+                                background: transparent;
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 10px;
+                                line-height: 11px;
+                                text-align: center;
+                                color: #FFFFFF;
+                            }
+                            .BlogDateBox{
+                                display: flex;
+                                align-items: center;
+                                gap: 3px;
+                                img{
+                                    width: 20.29px !important;
+                                    height: 20.21px !important;
+                                    margin-top: 5px;
+                                }
+                                span{
+                                    font-family: 'Poppins';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 27px;
+                                    text-align: justify;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .RespnsiveBlogContentBox{
+            display: block;
+            margin-top: 30px;
+            .BlogAllButton{
+                border: none !important;
+                margin-left: 10px;
+                background-color: transparent;
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 10px;
+                line-height: 11px;
+                color: #0F89C1;
+                img{
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 10px;
+                }
+            }
+            .BlogListContainer{
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                z-index: 99999999999;
+                .BlogItem{
+                    // text-align: left;
+                    width: 100%;
+                    height: 110px;
+                    border-radius: 7.19409px;
+                    // background: #A1D0FB;
+                    position: relative;
+                    z-index: 1111111;
+                    .BlogContent{
+                        width: 100%;
+                        height: 100%;
+                        padding: 0px;
+    
+                        .BlogTitle{
+                            margin-top: 20px;
+                            width: 100%;
+                          
+                            h3{
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 10.7639px;
+                                line-height: 12px;
+                                color: #FFFFFF;
+                                width: 90%;
+                                margin: auto;
+                                padding-top: 12px;
+                            }
+                        }
+                        .BlogBottom{
+                            position: absolute;
+                            bottom: 5px;
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 10px;
+                            align-items: center;
+                            button{
+                                width: 61.51px;
+                                height: 23.07px;
+                                border: 1.49877px solid;
+                                border-radius: 13.4889px;
+                                background: transparent;
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 7.68848px;
+                                line-height: 9px;
+                                text-align: center;
+                                color: #FFFFFF;
+                                margin-left: 3px;
+                            }
+                            .BlogDateBox{
+                                display: flex;
+                                align-items: center;
+                                gap: 3px;
+                                img{
+                                    width: 14px;
+                                    height: 14px;
+                                    margin-top: -2px;
+                                }
+                                span{
+                                    font-family: 'Poppins';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size:8px;
+                                    line-height: 8px;
+                                    text-align: justify;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .BlogContentBox{display: none;}
+    }
+}
+
+// IPAD
+
+@media(max-width:1180px) and (min-width:768px){
+    .BlogWrapper{
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 00px;
+        z-index: 1;
+        .ContainerBox{
+            width: 95%;
+            margin:auto;
+            .InfoText h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 18px;
+                text-align: justify;
+                color: #0F89C1;
+            }
+            .InfoText p{
+               font-family: 'Poppins';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 21px;
+               color: #868788;
+               width: 100%;
+               height: 81px;
+            }
+        }
+        .BlogSliderBoxContainer{
+            padding-top: 50px;
+            text-align: center;
+            h4{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 18px;
+                margin-bottom: 20px;
+                color: #868788;
+            }
+            .BlogBox{display: none;}
+            .ResponsiveBlogBox{
+                display: block;
+                text-align: left;
+                margin-top: 20px;
+                .BlogItem{
+                    text-align: left;
+                    width: 330px;
+                    height: auto;
+                    border-radius: 24px;
+                    background: transparent;
+                    position: relative;
+                    img{
+                        margin-top: -7px;
+                        padding: 0px;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 24px;
+                        z-index: 11111;
+                    }
+                    .BlogContent{
+                        position: absolute;
+                        z-index: 9999999;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        padding: 20px 30px;
+    
+                        .BlogTitle{
+                            margin-top: 50px;
+                            h3{
+                                width: 100%;
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 24px;
+                                width: 100%;
+                               
+                                color: #FFFFFF;
+                            }
+                        }
+                        .BlogBottom{
+                            position: absolute;
+                            bottom: 30px;
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 50px;
+                            align-items: center;
+                            button{
+                                width: 78.47px;
+                                height: 28.68px;
+                                border: 1.84211px solid #FFFFFF;
+                                border-radius: 16.5789px;
+                                background: transparent;
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 10px;
+                                line-height: 11px;
+                                text-align: center;
+                                color: #FFFFFF;
+                            }
+                            .BlogDateBox{
+                                display: flex;
+                                align-items: center;
+                                gap: 3px;
+                                img{
+                                    width: 20.29px !important;
+                                    height: 20.21px !important;
+                                    margin-top: 5px;
+                                }
+                                span{
+                                    font-family: 'Poppins';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 27px;
+                                    text-align: justify;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .RespnsiveBlogContentBox{
+            display: block;
+            margin-top: 30px;
+            .BlogAllButton{
+                border: none !important;
+                margin-left: 10px;
+                background-color: transparent;
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 10px;
+                line-height: 11px;
+                color: #0F89C1;
+                img{
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 10px;
+                }
+            }
+            .BlogListContainer{
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                z-index: 99999999999;
+                .BlogItem{
+                    // text-align: left;
+                    width: 100%;
+                    height: 215px;
+                   
+                    border-radius: 7.19409px;
+                    // background: #A1D0FB;
+                    position: relative;
+                    z-index: 1111111;
+                    .BlogContent{
+                        width: 100%;
+                        height: 100%;
+                        padding: 10px;
+    
+                        .BlogTitle{
+                            margin-top: 20px;
+                            width: 100%;
+                          
+                            h3{
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 10.7639px;
+                                line-height: 12px;
+                                color: #FFFFFF;
+                                width: 90%;
+                                margin: auto;
+                                padding-top: 12px;
+                            }
+                        }
+                        .BlogBottom{
+                            width: 100%;
+                            position: absolute;
+                            bottom: 20px;
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 10px;
+                            align-items: center;
+                            button{
+                                width: 90.51px;
+                                height: 30.07px;
+                                border: 1.49877px solid;
+                                border-radius: 13.4889px;
+                                background: transparent;
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 12px;
+                                line-height: 9px;
+                                text-align: center;
+                                color: #FFFFFF;
+                                margin-left: 0px;
+                            }
+                            .BlogDateBox{
+                                display: flex;
+                                align-items: center;
+                                gap: 3px;
+                                margin-right: 30px;
+                                img{
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-top: -2px;
+                                }
+                                span{
+                                    font-family: 'Poppins';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size:14px;
+                                    line-height: 8px;
+                                    text-align: justify;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .BlogContentBox{display: none;}
+    }
+}

@@ -1,0 +1,131 @@
+.FooterWrapper{
+    height: 560px;
+    width: 100%;
+    padding-top: 50px;
+    .FooterContainer{
+        display: block;
+        margin-top: 30px;
+        .FooterInfoContainer{
+            margin-top: 30px;
+            display: flex;
+            // justify-content: space-between;
+            gap: 120px;
+            .FooterInfoText{
+                width: 800px;
+                // width: 100%;
+                height: 144px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #868788;
+                text-align: justify;
+
+            }
+            .FooterLinkConatiner{
+                width: 100%;
+
+                h5{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #0F89C1;
+                }
+                .FooterLinks a{
+                    color: #919598 !important;
+                    text-decoration: none !important;
+                }
+            }
+        }
+        .FooterButtomInfo{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            p{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #919598;
+            }
+        }
+    }
+    .ResponsiveFooterContainer{
+        display: none;
+    }
+}
+// Responsive Breakpoint
+@media(max-width:992px) and (min-width:310px) {
+    .FooterWrapper{
+        height: 560px;
+        width: 100%;
+        padding-top: 100px;
+        .FooterContainer{
+            display: none;
+        }
+        .ResponsiveFooterContainer{
+            display: block;
+            .Logo{
+                width: 94px;
+                height: 61px;
+            }
+            .FooterInformationbox{
+                width: 100%;
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                .ConpanyInfo p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    width: auto;
+                    height: auto;
+                    color: #868788;
+
+                }
+                .OurLinkBoxes{
+                    width: 100%;
+                    .RespLink{
+                        padding: 20px 5px;
+                        width: 90%;
+                        margin: auto;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        a{
+                            text-decoration: none !important;
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #919598;
+                        }
+                    }
+                }
+
+            }
+
+            .FooterButtomInfo{
+                margin-top: 40px;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+                p{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12.3631px;
+                    line-height: 14px;
+                    color: #919598;
+                }
+            }
+        }
+    }
+}

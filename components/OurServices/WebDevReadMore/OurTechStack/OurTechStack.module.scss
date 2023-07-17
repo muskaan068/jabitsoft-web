@@ -1,0 +1,287 @@
+.OurTechStackWrapper{
+    height: 900px;
+    width: 100%;
+    background: #C3ECFF;
+    border-top-left-radius: 144px;
+    border-bottom-left-radius: 144px;
+    margin-bottom: 100px;
+    .ContainerBox{
+        position: relative;
+        width: 90%; 
+        margin: auto;
+    .ItemContainer{
+        position: relative;
+        .ItemBoxContainer{
+            position: absolute;
+            top: -140px;
+            // right: 0;
+            // left: 0;
+            display: flex;
+            gap: 20px;
+            width: 90%;
+            margin: auto;
+            .ItemBox{
+                width: 235px;
+                height: 239.52px;
+                background: #FFFFFF;
+                box-shadow: 32.85px 24.9417px 26.7667px 3.65px rgba(0, 0, 0, 0.1);
+                border-radius: 18.0769px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+                
+                img{
+                    width: 66.75px;
+                    height: 89px;
+                }
+                h4{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #70CEFA;
+    
+                }
+            }
+        }
+    }
+    .ContentBoxContainer{
+        padding-top: 400px;
+        h3{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 46px;
+            color: #0F89C1;
+            width: 382px;
+            height: 46px;
+
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #868788;
+            width: 894px;
+            height: 90px;
+        }
+    }
+    .BottomItemBox{
+        width: 50%;
+        margin: auto;
+        margin-top: 240px;
+        margin-bottom: 100px;
+        .TechItem{
+          display: flex;
+          gap: 50px;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+        
+    }
+}
+}
+
+//Responsive Breakpoint
+
+@media(max-width:767px){
+    .OurTechStackWrapper{
+        height: 900px;
+        width: 100%;
+        background: #C3ECFF;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        margin-bottom: 100px;
+        .ContainerBox{
+            position: relative;
+            width: 90%; 
+            margin: auto;
+        .ItemContainer{
+            position: relative;
+            .ItemBoxContainer{
+                position: absolute;
+                top: -130px;
+                display: flex;
+                gap: 20px;
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: auto;
+                .ItemBox{
+                    width: 135px;
+                    height: 139.52px;
+                    background: #FFFFFF;
+                    box-shadow: 32.85px 24.9417px 26.7667px 3.65px rgba(0, 0, 0, 0.1);
+                    border-radius: 18.0769px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 20px;
+                    
+                    img{
+                        width: 30.75px;
+                        height: 30px;
+                    }
+                    h4{
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15.8237px;
+                        line-height: 14px;
+                        color: #70CEFA;
+        
+                    }
+                }
+            }
+        }
+        .ContentBoxContainer{
+            padding-top: 400px;
+            h3{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #0F89C1;
+                width: auto;
+                height: auto;
+    
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: #868788;
+                width: auto;
+                height: auto;
+            }
+        }
+        .BottomItemBox{
+            width: 100%;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            .TechItem{
+              display: flex;
+              gap: 20px;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: center;
+              img{
+                width: 80px;
+                height: 80px;
+              }
+            }
+            
+        }
+    }
+    }
+}
+
+// IPAD
+
+@media(max-width:1180px) and (min-width:768px){
+    .OurTechStackWrapper{
+        height: 850px;
+        width: 100%;
+        background: #C3ECFF;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        margin-bottom: 50px;
+        .ContainerBox{
+            position: relative;
+            width: 90%; 
+            margin: auto;
+        .ItemContainer{
+            position: relative;
+            .ItemBoxContainer{
+                position: absolute;
+                top: -50px;
+                display: flex;
+                gap: 20px;
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: auto;
+                .ItemBox{
+                    width: 135px;
+                    height: 139.52px;
+                    background: #FFFFFF;
+                    box-shadow: 32.85px 24.9417px 26.7667px 3.65px rgba(0, 0, 0, 0.1);
+                    border-radius: 18.0769px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 20px;
+                    
+                    img{
+                        width: 30.75px;
+                        height: 30px;
+                    }
+                    h4{
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15.8237px;
+                        line-height: 14px;
+                        color: #70CEFA;
+        
+                    }
+                }
+            }
+        }
+        .ContentBoxContainer{
+            padding-top: 400px;
+            h3{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #0F89C1;
+                width: auto;
+                height: auto;
+    
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: #868788;
+                width: auto;
+                height: auto;
+            }
+        }
+        .BottomItemBox{
+            width: 100%;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            .TechItem{
+              display: flex;
+              gap: 20px;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: center;
+              img{
+                width: 80px;
+                height: 80px;
+              }
+            }
+            
+        }
+    }
+    }
+}

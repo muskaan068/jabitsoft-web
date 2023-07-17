@@ -1,0 +1,109 @@
+.BlogDeatilsWrapper{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .ContainerBox{
+        margin-top: 30px;
+        .LeftSideContent{
+            div p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #868788;
+                width: 95%;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        .RightSideContent{
+            padding: 10px;
+            height: 835px;
+            background: #FFFFFF;
+            border-radius: 25px;
+            .ItemContainerBox{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                // justify-content: center;
+                .ItemBox{
+                    position: relative;
+                     width: auto;
+                    height: 250.48px;
+                    background: gray;
+                    border-radius: 24px;
+                    padding: 0px 32px;
+                    img{
+                        // width: 485.29px;
+                        // height: 328.48px;
+                        object-fit: contain;
+                    }
+                    h4{
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #FFFFFF;
+                        margin-top: 100px;
+                        max-width: 300px;
+                        width: 100%;
+                        height: auto;
+
+    
+                    }
+                    .BottomContainer{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-top: 50px;
+                        button{
+                            border: 3px solid #FFFFFF;
+                            backdrop-filter: blur(2px);
+                            border-radius: 45px;
+                            width: 100.25px;
+                            height: 38.11px;        
+                            background: transparent;
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 12.6672px;
+                            line-height: 15px;
+                            text-align: center;
+
+                            color: #FFFFFF;
+    
+                        }
+                        .BottomTextInfo{
+                            
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+                          
+                            img{
+                                width: 22.5px;
+                                height: 25px;
+                            }
+                            span{
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 27px;
+                                text-align: justify;
+                                color: #FFFFFF;
+                                margin-top: -5px;
+    
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

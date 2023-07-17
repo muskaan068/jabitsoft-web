@@ -1,0 +1,313 @@
+.WhyUsWrapper{
+   height: auto;
+    width: 100%;
+    margin-bottom: 150px;
+
+    .WhyUsSubWrapper{
+        height: 920px;
+        padding-top: 150px;
+        width: 100%;
+        background: #C4ECFF;
+        border-top-left-radius: 144px;
+        border-bottom-left-radius: 144px;
+        .ContainerBox{
+            width: 90%;
+            margin: auto;
+            padding-top: 150px;
+            padding-bottom: 150px;
+            display: flex;
+            gap: 30px;
+            .InfoText h1{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 46px;
+                text-align: justify;
+                color: #0F89C1;
+            }
+            .InfoText p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 36px;
+                color: #868788;
+                max-width: 894px;
+                width: 100%;
+                height: auto;
+            }
+            .InfoImgContainer{
+                position: relative;
+                // margin-top: -50px;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    max-width: 300px;
+                    max-height: 300px;
+                    object-fit: contain;
+                }
+                
+            }
+        }
+        .ContainerInfoBoxes{
+            display: flex;
+            // gap: 60px;
+            justify-content: space-between;
+            margin-top: 70px;
+            .ContainerItemBox{
+                width: 358px;
+                height: 386.83px;
+                background: #FFFAFA;
+                box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 25px;
+                padding: 50px 60px;
+                text-align: center;
+                img{
+                    width: 168px;
+                    height: 168px;
+                    margin-bottom: 20px;
+                }
+                h5{
+                    text-align: left;
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: justify;
+                    color: #0E9AD6;
+
+                }
+                p{
+                    text-align: left;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: justify;
+                    color: #0E9AD6;
+                }
+            }
+        }
+    }
+
+}
+
+//Responsive Breakpoint
+@media(max-width:767px){
+    .WhyUsWrapper{
+        height: auto;
+         width: 100%;
+         margin-bottom: 200px;
+     
+         .WhyUsSubWrapper{
+             height: 700px;
+             padding-top: 0px;
+             width: 100%;
+             background: #C4ECFF;
+             border-radius: 30.088px 0px 0px 30.088px;
+             .ContainerBox{
+                 width: 95%;
+                 margin: auto;
+                 padding-top: 50px;
+                 padding-bottom: 8px;
+                 display: flex;
+                 flex-direction: column-reverse;
+                 gap: 00px;
+                 .InfoText h1{
+                     font-family: 'Helvetica';
+                     font-style: normal;
+                     font-weight: 800;
+                     font-size: 20px;
+                     line-height: 23px;
+                     text-align: justify;
+                     color: #0F89C1;
+                     margin-top: 30px;
+                 }
+                 .InfoText p{
+                     font-family: 'Poppins';
+                     font-style: normal;
+                     font-weight: 500;
+                     font-size: 14px;
+                     line-height: 21px;
+
+                     color: #868788;
+                     height: auto;
+                     width: 331px;
+                 }
+                 .InfoImgContainer{
+                     position: relative;
+                     text-align: right;
+                     img{
+                        width: 200px;
+                        height: 200px;
+                        object-fit: contain;
+                    }
+                
+                 }
+             }
+             .ContainerInfoBoxes{
+                 display: flex;
+                 justify-content: space-between;
+                 flex-direction: column;
+                 margin-top: 10px;
+                 gap: 30px;
+                 .ContainerItemBox{
+                    width: auto;
+                    height: 109px;
+                     background: #FFFAFA;
+                     box-shadow: 16.891px 12.8247px 13.7631px 1.87678px rgba(0, 0, 0, 0.1);
+                     border-radius: 7.81993px;
+                     padding: 10px 25px;
+                     text-align: center;
+                     display: flex;
+                     align-items: center;
+                     gap: 20px;
+                     .TextInfo{
+                        margin-top: 10px;
+                     }
+                     img{
+                        width: 52.55px;
+                        height: 52.55px;
+                         margin-bottom: 0px;
+                     }
+                     h5{
+                       
+                         text-align: left;
+                         font-family: 'Helvetica';
+                         font-style: normal;
+                         font-weight: 700;
+                         font-size: 16px;
+                         line-height: 18px;
+                         text-align: justify;
+                         color: #0E9AD6;
+     
+                     }
+                     p{
+                       
+                         text-align: left;
+                         font-family: 'Poppins';
+                         font-style: normal;
+                         font-weight: 500;
+                         font-size: 12px;
+                         line-height: 18px;
+                         text-align: justify;
+                         color: #0E9AD6;
+                     }
+                 }
+             }
+         }
+     
+     }
+}
+
+//IPAD
+@media(max-width:1180px) and (min-width:768px) {
+    .WhyUsWrapper{
+        height: auto;
+         width: 100%;
+         margin-bottom: 100px;
+     
+         .WhyUsSubWrapper{
+             height: 700px;
+             padding-top: 0px;
+             width: 100%;
+             background: #C4ECFF;
+             border-radius: 30.088px 0px 0px 30.088px;
+             .ContainerBox{
+                 width: 95%;
+                 margin: auto;
+                 padding-top: 50px;
+                 padding-bottom: 8px;
+                 display: flex;
+                 flex-direction: column-reverse;
+                 gap: 0px;
+                 .InfoText h1{
+                     font-family: 'Helvetica';
+                     font-style: normal;
+                     font-weight: 800;
+                     font-size: 20px;
+                     line-height: 23px;
+                     text-align: justify;
+                     color: #0F89C1;
+                     margin-top: 30px;
+                 }
+                 .InfoText p{
+                     font-family: 'Poppins';
+                     font-style: normal;
+                     font-weight: 500;
+                     font-size: 14px;
+                     line-height: 21px;
+                     color: #868788;
+                     height: auto;
+                    max-width: 831px;
+                    width: 100%;
+                 }
+                 .InfoImgContainer{
+                     position: relative;
+                     text-align: right;
+                     img{
+                        width: 200px;
+                        height: 200px;
+                        object-fit: contain;
+                    }
+                
+                 }
+             }
+             .ContainerInfoBoxes{
+                 display: flex;
+                 justify-content: space-between;
+                 flex-direction: column;
+                 margin-top: 10px;
+                 gap: 30px;
+                 .ContainerItemBox{
+                    width: auto;
+                    height: 109px;
+                     background: #FFFAFA;
+                     box-shadow: 16.891px 12.8247px 13.7631px 1.87678px rgba(0, 0, 0, 0.1);
+                     border-radius: 7.81993px;
+                     padding: 10px 25px;
+                     text-align: center;
+                     display: flex;
+                     align-items: center;
+                     gap: 20px;
+                     .TextInfo{
+                        margin-top: 10px;
+                     }
+                     img{
+                        width: 52.55px;
+                        height: 52.55px;
+                         margin-bottom: 0px;
+                     }
+                     h5{
+                       
+                         text-align: left;
+                         font-family: 'Helvetica';
+                         font-style: normal;
+                         font-weight: 700;
+                         font-size: 16px;
+                         line-height: 18px;
+                         text-align: justify;
+                         color: #0E9AD6;
+     
+                     }
+                     p{
+                       
+                         text-align: left;
+                         font-family: 'Poppins';
+                         font-style: normal;
+                         font-weight: 500;
+                         font-size: 12px;
+                         line-height: 18px;
+                         text-align: justify;
+                         color: #0E9AD6;
+                     }
+                 }
+             }
+         }
+     
+     }
+}

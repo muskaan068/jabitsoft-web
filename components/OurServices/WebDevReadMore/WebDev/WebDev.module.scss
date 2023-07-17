@@ -1,0 +1,247 @@
+.WebDevReadmoreWrapper{
+    width: 100%;
+    height: 800px;
+    background: #C3ECFF;
+    border-radius: 0px 144px 144px 0px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    
+    .ContainerBoxLeftRds{
+        .CircleBoxContainer{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            .TopCircle{
+                background: #FDFDFD;
+                box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                width: 340px;
+                height: 340px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: -150px;
+                
+            }
+        }
+       
+        .ContentBox{
+            width: 90%;
+            margin: auto;
+            h3{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 46px;
+                color: #0F89C1;
+
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #868788;
+                width: 894px;
+                height: 300px;
+            }
+            .ButtonContainer{
+                text-align: center;
+                margin-top: 120px;
+                button{
+                    border: 3px solid #FF5F15;
+                    overflow: unset;
+                    border-radius: 45px;
+                    width: 203px;
+                    height: 76px;
+                    background-color: transparent;
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-align: center;
+                     color: #FF5F15;
+
+                }
+            }
+        }
+    }
+    
+}
+
+//Responsive Breakpoint
+
+@media(max-width:767px){
+    .WebDevReadmoreWrapper{
+        width: 100%;
+        height: 700px;
+        background: #C3ECFF;
+        border-radius: 0px 45px 45px 0px;
+        margin-top: 250px;
+        margin-bottom: 100px;
+        
+        .ContainerBoxLeftRds{
+            .CircleBoxContainer{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                height: 200px;
+                .TopCircle{
+                    background: #FDFDFD;
+                    box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                    width: 209px;
+                    height:209px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -100px;
+                    img{
+                        width: 70%;
+                        height: 70%;
+
+                    }
+                    
+                }
+            }
+           
+            .ContentBox{
+                width: 90%;
+                margin: auto;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #0F89C1;
+    
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #868788;
+                    width: auto;
+                    height: auto;
+                }
+                .ButtonContainer{
+                    text-align: center;
+                    margin-top: 120px;
+                    button{
+                        border: 3px solid #FF5F15;
+                        overflow: unset;
+                        border-radius: 45px;
+                        width: 203px;
+                        height: 76px;
+                        background-color: transparent;
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-align: center;
+                         color: #FF5F15;
+    
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}
+
+//IPAD
+
+@media(max-width:1180px) and (min-width:768px){
+    .WebDevReadmoreWrapper{
+        width: 100%;
+        height: 600px;
+        background: #C3ECFF;
+        border-radius: 0px 45px 45px 0px;
+        margin-top: 250px;
+        margin-bottom: 100px;
+        
+        .ContainerBoxLeftRds{
+            .CircleBoxContainer{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                height: 200px;
+                .TopCircle{
+                    background: #FDFDFD;
+                    box-shadow: 54px 41px 44px 6px rgba(0, 0, 0, 0.1);
+                    width: 209px;
+                    height:209px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -100px;
+                    img{
+                        width: 70%;
+                        height: 70%;
+
+                    }
+                    
+                }
+            }
+           
+            .ContentBox{
+                width: 90%;
+                margin: auto;
+                h3{
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #0F89C1;
+    
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #868788;
+                    width: auto;
+                    height: auto;
+                }
+                .ButtonContainer{
+                    text-align: center;
+                    margin-top: 120px;
+                    button{
+                        border: 3px solid #FF5F15;
+                        overflow: unset;
+                        border-radius: 45px;
+                        width: 203px;
+                        height: 76px;
+                        background-color: transparent;
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-align: center;
+                         color: #FF5F15;
+    
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}

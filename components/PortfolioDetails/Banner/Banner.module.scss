@@ -1,0 +1,186 @@
+.BannerWrapper {
+  // margin-top: 135px;
+  background: linear-gradient(
+    111.79deg,
+    #0d5c7c 12.81%,
+    #1386b6 59.37%,
+    #16a6e2 90.55%
+  );
+  width: 100%;
+  height: auto;
+  // max-height: 100%;
+  border-bottom-left-radius: 282px;
+  padding-top: 115px;
+  padding-bottom: 120px;
+  .BannerContainer {
+    display: flex;
+    justify-content: space-between;
+    .InfoContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      // width: 80%;
+      // align-items: center;
+      h3 {
+        color: #ffffff;
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 92px;
+      }
+      h3 span {
+        color: #70cefa;
+      }
+      p {
+        width: 100%;
+        // margin:0 auto;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff7f7;
+      }
+    }
+    .FrameContainer {
+      height: 100%;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      img {
+        width: 500.06px;
+        height: 550.12px;
+        object-fit: contain;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+//Responsive Breakpoint
+
+@media (max-width: 767px) {
+  .BannerWrapper {
+    // margin-top: 135px;
+    background: linear-gradient(
+      111.79deg,
+      #0d5c7c 12.81%,
+      #1386b6 59.37%,
+      #16a6e2 90.55%
+    );
+    width: 100%;
+    height: auto;
+    // max-height: 100%;
+    border-bottom-left-radius: 282px;
+    padding-top: 115px;
+    padding-bottom: 120px;
+    .BannerContainer {
+      display: flex;
+      justify-content: space-between;
+      .InfoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // width: 80%;
+        // align-items: center;
+        h3 {
+          color: #ffffff;
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 92px;
+        }
+        h3 span {
+          color: #70cefa;
+        }
+        p {
+          width: 100%;
+          // margin:0 auto;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: #fff7f7;
+        }
+      }
+      .FrameContainer {
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        img {
+          width: 500.06px;
+          height: 550.12px;
+          object-fit: contain;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+//IPAD
+
+@media (max-width: 1180px) and (min-width: 768px) {
+  .BannerWrapper {
+    // margin-top: 135px;
+    background: linear-gradient(
+      111.79deg,
+      #0d5c7c 12.81%,
+      #1386b6 59.37%,
+      #16a6e2 90.55%
+    );
+    width: 100%;
+    height: auto;
+    // max-height: 100%;
+    border-bottom-left-radius: 282px;
+    padding-top: 115px;
+    padding-bottom: 120px;
+    .BannerContainer {
+      display: flex;
+      justify-content: space-between;
+      .InfoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // width: 80%;
+        // align-items: center;
+        h3 {
+          color: #ffffff;
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 92px;
+        }
+        h3 span {
+          color: #70cefa;
+        }
+        p {
+          width: 100%;
+          // margin:0 auto;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: #fff7f7;
+        }
+      }
+      .FrameContainer {
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        img {
+          width: 500.06px;
+          height: 550.12px;
+          object-fit: contain;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "theme_color": "#16A6E2",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Jabitsoft Pvt Ltd",
+    "short_name": "Jabitsoft",
+    "description": "Jabit soft, top software development company has expertise in a wide variety of software development for businesses and start-ups. Our experienced team deliver an unmatched level of client satisfaction from a broad range of software solutions, IT consulting services and software technology that include:",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
